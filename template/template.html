@@ -1,0 +1,1535 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)# -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Pasta, Pasta Sauce, and Recipes | Barilla</title>
+    <meta
+      property="og:site_name"
+      content="Pasta, Pasta Sauce, and Recipes | Barilla"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Pasta, Pasta Sauce, and Recipes" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://localhost:5002/en-gb/resources/favicon/apple-icon-180x180.png?v=1"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="https://localhost:5002/en-gb/resources/favicon/android-icon-192x192.png?v=1"
+    />
+    <link
+      rel="icon"
+      href="https://localhost:5002/en-gb/favicon.ico?v=1"
+      sizes="any"
+    />
+
+    <link rel="stylesheet" href="./assets/font.css" />
+    <link rel="stylesheet" href="./assets/core.min.css" />
+    <script src="./assets/core.min.js"></script>
+    <script src="./assets/jquery-3.5.1.min.js"></script>
+    <script src="./assets/gsap.min.js"></script>
+    <script src="./assets/ScrollTrigger.min.js"></script>
+  </head>
+  <body class="">
+    <div class="pageWrap">
+      <header class="headerCore" js-nav-full="">
+        <div class="widthWrap">
+          <div class="contentHolder contain">
+            <div class="headerContent">
+              <button type="button" class="mobileNav" js-nav-toggle="">
+                Nav toggle
+              </button>
+              <ul class="desktopNav contain">
+                <li class="">
+                  <a
+                    href="#"
+                    js-nav-tier-toggle="Products"
+                    >Products-EN</a
+                  >
+                </li>
+                <li class="">
+                  <a
+                    href="#"
+                    js-nav-tier-toggle="Recipes"
+                    >Recipes</a
+                  >
+                </li>
+                <li>
+                  <a href="https://localhost:5002/en-gb/whats-new"
+                    >What's new</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    js-nav-tier-toggle="More"
+                    >More</a
+                  >
+                </li>
+              </ul>
+              <a class="logo" href="https://localhost:5002/en-gb">Barilla</a>
+
+              <button
+                type="button"
+                class="desktopNavButton localSelect"
+                js-nav-tier-toggle="Locale"
+              >
+                United Kingdom
+              </button>
+
+              <button
+                type="button"
+                class="desktopNavButton iconizedNavButton signIn gigya-show-anonymous hidden"
+                js-nav-login-button=""
+              >
+                Sign in
+              </button>
+              <button
+                type="button"
+                class="desktopNavButton iconizedNavButton profile gigya-show-loggedin hidden"
+                js-nav-profile-button="/account"
+              >
+                Profile
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <nav>
+        <div class="burgerNavOptions active">
+          <div class="contentHolder contain">
+            <button
+              type="button"
+              class="iconizedNavButton signIn gigya-show-anonymous hidden"
+              js-nav-login-button=""
+            >
+              Sign in
+            </button>
+            <button
+              type="button"
+              class="iconizedNavButton profile gigya-show-loggedin hidden"
+              js-nav-profile-button="/account"
+            >
+              Profile
+            </button>
+            <button
+              type="button"
+              class="localSelect"
+              js-nav-tier-toggle="Locale"
+            >
+              United Kingdom
+            </button>
+          </div>
+        </div>
+        <div class="burgerNavOptions mobileLocaleTakeover" js-nav-tier="Locale">
+          <div class="contentHolder contain">
+            <button type="button" class="menuBackLink" js-nav-tier-back="">
+              Back
+            </button>
+            <h3>Selected country</h3>
+            <div class="currentLocale en-gb">
+              <h4>United Kingdom</h4>
+            </div>
+          </div>
+        </div>
+        <div class="menuTierHolder nav-tier-1-open" js-nav-tier-root="">
+          <div class="tier hidden" js-nav-tier-0="">
+            <span
+              class="menuImagery"
+              style="
+                background-image: url(https://images.ctfassets.net/97c0xlmyws4f/6drDZu06UaEektOkapHrPJ/b07ab76d8064f138b8328490a8f36cd2/menuRecipes.webp);
+              "
+            ></span>
+            <div class="contentHolder">
+              <div class="primaryNavOptions">
+                <div class="mobileNavShow">
+                  <button
+                    type="button"
+                    class="menuButton"
+                    js-nav-tier-toggle="Products"
+                  >
+                    Products-EN
+                  </button>
+                  <button
+                    type="button"
+                    class="menuButton"
+                    js-nav-tier-toggle="Recipes"
+                  >
+                    Recipes
+                  </button>
+                  <a
+                    class="menuLink"
+                    href="https://localhost:5002/en-gb/whats-new"
+                    >What's new</a
+                  >
+                </div>
+              </div>
+              <div class="mobileNavShow secondaryNavOptions">
+                <button
+                  type="button"
+                  class="menuButton"
+                  js-nav-tier-toggle="About"
+                  js-about-button=""
+                >
+                  About Barilla
+                </button>
+                <a
+                  class="menuLink"
+                  href="https://localhost:5002/en-gb/help-with"
+                  >Help with</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- ABOUT BARILLA (this is usually Tier2 but is used at Tier1 in burger menu) -->
+          <div class="tier tier-1 tierLeft" js-nav-tier="About">
+            <span
+              class="menuImagery"
+              style="
+                background-image: url(https://images.ctfassets.net/97c0xlmyws4f/33e9tPzTuH58iIqFKApZhP/9e3b07e5c151c07871ddc38c1e286af8/menuMore.webp);
+              "
+            ></span>
+            <div class="contentHolder">
+              <div class="primaryNavOptions">
+                <button type="button" class="menuBackLink" js-nav-tier-back="">
+                  Back
+                </button>
+                <button
+                  type="button"
+                  class="menuInternalClose"
+                  js-nav-toggle=""
+                >
+                  Close
+                </button>
+                <h2>About Barilla</h2>
+                <a
+                  class="menuLink"
+                  href="https://localhost:5002/en-gb/campaign/open-carbonara"
+                  >Learn more about our mission</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- PRODUCTS -->
+          <div class="tier tier-1 tierLeft active" js-nav-tier="Products">
+            <span
+              class="menuImagery"
+              style="
+                background-image: url(/en-gb/resources/images/backgrounds/navigationMenuDefault.webp);
+              "
+            ></span>
+            <div class="contentHolder">
+              <div class="primaryNavOptions">
+                <button type="button" class="menuBackLink" js-nav-tier-back="">
+                  Back
+                </button>
+                <button
+                  type="button"
+                  class="menuInternalClose"
+                  js-nav-toggle=""
+                >
+                  Close
+                </button>
+                <h2>Products-EN</h2>
+
+                <a class="menuLink" href="https://localhost:5002/en-gb/products"
+                  >Product Hub</a
+                >
+
+                <div>
+                  <button
+                    type="button"
+                    class="menuButton menuSelected"
+                    js-nav-tier-open=""
+                  >
+                    Pasta
+                  </button>
+
+                  <div class="tier tierRight tier-2" js-nav-tier="">
+                    <div class="contentHolder">
+                      <div class="primaryNavOptions">
+                        <button
+                          type="button"
+                          class="menuBackLink"
+                          js-nav-tier-back=""
+                        >
+                          Products-EN
+                        </button>
+                        <button
+                          type="button"
+                          class="desktopTierClose"
+                          js-nav-tier-back=""
+                        >
+                          Close
+                        </button>
+                        <h2>Pasta</h2>
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/products/pasta/al-bronzo"
+                          >Al Bronzo</a
+                        >
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/products/pasta/classic"
+                          >Classic</a
+                        >
+                      </div>
+                      <a
+                        class="button btnSecondary"
+                        href="https://localhost:5002/en-gb/products/search"
+                        >See all products</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <button
+                    type="button"
+                    class="menuButton menuSelected"
+                    js-nav-tier-open=""
+                  >
+                    Pesto
+                  </button>
+
+                  <div class="tier tierRight tier-2" js-nav-tier="">
+                    <div class="contentHolder">
+                      <div class="primaryNavOptions">
+                        <button
+                          type="button"
+                          class="menuBackLink"
+                          js-nav-tier-back=""
+                        >
+                          Products-EN
+                        </button>
+                        <button
+                          type="button"
+                          class="desktopTierClose"
+                          js-nav-tier-back=""
+                        >
+                          Close
+                        </button>
+                        <h2>Pesto</h2>
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/products/pesto/green-pesto"
+                          >Green Pesto</a
+                        >
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/products/pesto/red-pesto"
+                          >Red Pesto</a
+                        >
+                      </div>
+                      <a
+                        class="button btnSecondary"
+                        href="https://localhost:5002/en-gb/products/search"
+                        >See all products</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <a
+                    href="https://localhost:5002/en-gb/products/sauce/ready-sauce"
+                    ><button
+                      type="button"
+                      class="menuButton menuSelected link"
+                      js-nav-tier-open=""
+                    >
+                      Sauce
+                    </button></a
+                  >
+                </div>
+              </div>
+              <div class="secondaryNavOptions">
+                <h3>Search by</h3>
+                <div>
+                  <button
+                    type="button"
+                    class="menuButton menuSelected"
+                    js-nav-tier-open=""
+                  >
+                    Shape
+                  </button>
+
+                  <div class="tier tierRight tier-2" js-nav-tier="">
+                    <div class="contentHolder">
+                      <div class="primaryNavOptions">
+                        <button
+                          type="button"
+                          class="menuBackLink"
+                          js-nav-tier-back=""
+                        >
+                          Products-EN
+                        </button>
+                        <button
+                          type="button"
+                          class="desktopTierClose"
+                          js-nav-tier-back=""
+                        >
+                          Close
+                        </button>
+                        <h2>Shape</h2>
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/products/search?shape-category=long"
+                          >Long</a
+                        >
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/products/search?shape-category=short"
+                          >Short</a
+                        >
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/products/search?shape-category=soup"
+                          >Soup</a
+                        >
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/products/search?shape-category=test%20copy%20shape%20category"
+                          >Test Copy Shape Category</a
+                        >
+                      </div>
+                      <a
+                        class="button btnSecondary"
+                        href="https://localhost:5002/en-gb/products/search"
+                        >See all products</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="button btnSecondary"
+                href="https://localhost:5002/en-gb/products/search"
+                >See all products</a
+              >
+            </div>
+          </div>
+
+          <!-- RECIPES -->
+          <div class="tier tier-1 tierLeft" js-nav-tier="Recipes">
+            <span
+              class="menuImagery"
+              style="
+                background-image: url(https://images.ctfassets.net/97c0xlmyws4f/6drDZu06UaEektOkapHrPJ/b07ab76d8064f138b8328490a8f36cd2/menuRecipes.webp);
+              "
+            ></span>
+            <div class="contentHolder">
+              <div class="primaryNavOptions">
+                <button type="button" class="menuBackLink" js-nav-tier-back="">
+                  Back
+                </button>
+                <button
+                  type="button"
+                  class="menuInternalClose"
+                  js-nav-toggle=""
+                >
+                  Close
+                </button>
+                <h2>Recipes</h2>
+
+                <a class="menuLink" href="https://localhost:5002/en-gb/recipe"
+                  >Recipes Hub</a
+                >
+
+                <a
+                  class="menuLink"
+                  href="https://localhost:5002/en-gb/recipe/inspiration"
+                  >Be Inspired</a
+                >
+              </div>
+              <div class="secondaryNavOptions">
+                <h3>Search by</h3>
+                <div>
+                  <button
+                    type="button"
+                    class="menuButton menuSelected"
+                    js-nav-tier-open=""
+                  >
+                    Ingredient
+                  </button>
+
+                  <div class="tier tierRight tier-2" js-nav-tier="">
+                    <div class="contentHolder">
+                      <div class="primaryNavOptions">
+                        <button
+                          type="button"
+                          class="menuBackLink"
+                          js-nav-tier-back=""
+                        >
+                          Recipes
+                        </button>
+                        <button
+                          type="button"
+                          class="desktopTierClose"
+                          js-nav-tier-back=""
+                        >
+                          Close
+                        </button>
+                        <h2>Ingredient</h2>
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/recipe/search?ingredient=aubergine"
+                          >Aubergine</a
+                        >
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/recipe/search?ingredient=cheese"
+                          >Cheese</a
+                        >
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/recipe/search?ingredient=meat"
+                          >Meat</a
+                        >
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/recipe/search?ingredient=mushrooms"
+                          >Mushrooms</a
+                        >
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/recipe/search?ingredient=peppers"
+                          >Peppers</a
+                        >
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/recipe/search?ingredient=pesto"
+                          >Pesto</a
+                        >
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/recipe/search?ingredient=pork"
+                          >Pork</a
+                        >
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/recipe/search?ingredient=tomatoes"
+                          >Tomatoes</a
+                        >
+                      </div>
+                      <a
+                        class="button btnSecondary"
+                        href="https://localhost:5002/en-gb/recipe/search"
+                        >See all recipes</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <button type="button" class="menuButton" js-nav-tier-open="">
+                    Dish type
+                  </button>
+
+                  <div class="tier tierRight tier-2" js-nav-tier="">
+                    <div class="contentHolder">
+                      <div class="primaryNavOptions">
+                        <button
+                          type="button"
+                          class="menuBackLink"
+                          js-nav-tier-back=""
+                        >
+                          Recipes
+                        </button>
+                        <button
+                          type="button"
+                          class="desktopTierClose"
+                          js-nav-tier-back=""
+                        >
+                          Close
+                        </button>
+                        <h2>Dish type</h2>
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/recipe/search?dish-type=spaghetti"
+                          >Spaghetti</a
+                        >
+                      </div>
+                      <a
+                        class="button btnSecondary"
+                        href="https://localhost:5002/en-gb/recipe/search"
+                        >See all recipes</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <button type="button" class="menuButton" js-nav-tier-open="">
+                    Difficulty
+                  </button>
+
+                  <div class="tier tierRight tier-2" js-nav-tier="">
+                    <div class="contentHolder">
+                      <div class="primaryNavOptions">
+                        <button
+                          type="button"
+                          class="menuBackLink"
+                          js-nav-tier-back=""
+                        >
+                          Recipes
+                        </button>
+                        <button
+                          type="button"
+                          class="desktopTierClose"
+                          js-nav-tier-back=""
+                        >
+                          Close
+                        </button>
+                        <h2>Difficulty</h2>
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/recipe/search?difficulty=beginner"
+                          >Beginner</a
+                        >
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/recipe/search?difficulty=casual"
+                          >Casual</a
+                        >
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/recipe/search?difficulty=challenging"
+                          >Challenging</a
+                        >
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/recipe/search?difficulty=more%20effort"
+                          >More effort</a
+                        >
+                      </div>
+                      <a
+                        class="button btnSecondary"
+                        href="https://localhost:5002/en-gb/recipe/search"
+                        >See all recipes</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <button
+                    type="button"
+                    class="menuButton menuSelected"
+                    js-nav-tier-open=""
+                  >
+                    Lifestyle
+                  </button>
+
+                  <div class="tier tierRight tier-2" js-nav-tier="">
+                    <div class="contentHolder">
+                      <div class="primaryNavOptions">
+                        <button
+                          type="button"
+                          class="menuBackLink"
+                          js-nav-tier-back=""
+                        >
+                          Recipes
+                        </button>
+                        <button
+                          type="button"
+                          class="desktopTierClose"
+                          js-nav-tier-back=""
+                        >
+                          Close
+                        </button>
+                        <h2>Lifestyle</h2>
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/recipe/search?lifestyle=dinner%20parties"
+                          >Dinner Parties</a
+                        >
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/recipe/search?lifestyle=quick%20and%20easy"
+                          >Quick and Easy</a
+                        >
+                      </div>
+                      <a
+                        class="button btnSecondary"
+                        href="https://localhost:5002/en-gb/recipe/search"
+                        >See all recipes</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <button type="button" class="menuButton" js-nav-tier-open="">
+                    Need
+                  </button>
+
+                  <div class="tier tierRight tier-2" js-nav-tier="">
+                    <div class="contentHolder">
+                      <div class="primaryNavOptions">
+                        <button
+                          type="button"
+                          class="menuBackLink"
+                          js-nav-tier-back=""
+                        >
+                          Recipes
+                        </button>
+                        <button
+                          type="button"
+                          class="desktopTierClose"
+                          js-nav-tier-back=""
+                        >
+                          Close
+                        </button>
+                        <h2>Need</h2>
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/recipe/search?need=gluten%20free"
+                          >Gluten Free</a
+                        >
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/recipe/search?need=original"
+                          >Original</a
+                        >
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/recipe/vegan"
+                          >Vegan</a
+                        >
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/recipe/search?need=vegetarian"
+                          >Vegetarian</a
+                        >
+                      </div>
+                      <a
+                        class="button btnSecondary"
+                        href="https://localhost:5002/en-gb/recipe/search"
+                        >See all recipes</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <button type="button" class="menuButton" js-nav-tier-open="">
+                    Dietary
+                  </button>
+
+                  <div class="tier tierRight tier-2" js-nav-tier="">
+                    <div class="contentHolder">
+                      <div class="primaryNavOptions">
+                        <button
+                          type="button"
+                          class="menuBackLink"
+                          js-nav-tier-back=""
+                        >
+                          Recipes
+                        </button>
+                        <button
+                          type="button"
+                          class="desktopTierClose"
+                          js-nav-tier-back=""
+                        >
+                          Close
+                        </button>
+                        <h2>Dietary</h2>
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/recipe/search?dietary-requirement=high%20protein"
+                          >High Protein</a
+                        >
+                      </div>
+                      <a
+                        class="button btnSecondary"
+                        href="https://localhost:5002/en-gb/recipe/search"
+                        >See all recipes</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <button
+                    type="button"
+                    class="menuButton menuSelected"
+                    js-nav-tier-open=""
+                  >
+                    Shape
+                  </button>
+
+                  <div class="tier tierRight tier-2" js-nav-tier="">
+                    <div class="contentHolder">
+                      <div class="primaryNavOptions">
+                        <button
+                          type="button"
+                          class="menuBackLink"
+                          js-nav-tier-back=""
+                        >
+                          Recipes
+                        </button>
+                        <button
+                          type="button"
+                          class="desktopTierClose"
+                          js-nav-tier-back=""
+                        >
+                          Close
+                        </button>
+                        <h2>Shape</h2>
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/recipe/search?shape-category=long"
+                          >Long</a
+                        >
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/recipe/search?shape-category=short"
+                          >Short</a
+                        >
+                      </div>
+                      <a
+                        class="button btnSecondary"
+                        href="https://localhost:5002/en-gb/recipe/search"
+                        >See all recipes</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="button btnSecondary"
+                href="https://localhost:5002/en-gb/recipe/search"
+                >See all recipes</a
+              >
+            </div>
+          </div>
+
+          <!-- MORE -->
+          <div class="tier tier-1 tierLeft" js-nav-tier="More">
+            <span
+              class="menuImagery"
+              style="
+                background-image: url(https://images.ctfassets.net/97c0xlmyws4f/33e9tPzTuH58iIqFKApZhP/9e3b07e5c151c07871ddc38c1e286af8/menuMore.webp);
+              "
+            ></span>
+            <div class="contentHolder">
+              <div class="primaryNavOptions">
+                <button type="button" class="menuBackLink" js-nav-tier-back="">
+                  Back
+                </button>
+                <button
+                  type="button"
+                  class="menuInternalClose"
+                  js-nav-toggle=""
+                >
+                  Close
+                </button>
+                <h2>More</h2>
+                <div>
+                  <button
+                    type="button"
+                    class="menuButton menuSelected"
+                    js-nav-tier-open=""
+                  >
+                    About Barilla
+                  </button>
+
+                  <div class="tier tierRight tier-2" js-nav-tier="">
+                    <div class="contentHolder">
+                      <div class="primaryNavOptions">
+                        <button
+                          type="button"
+                          class="menuBackLink"
+                          js-nav-tier-back=""
+                        >
+                          More
+                        </button>
+                        <button
+                          type="button"
+                          class="desktopTierClose"
+                          js-nav-tier-back=""
+                        >
+                          Close
+                        </button>
+                        <h2>About Barilla</h2>
+                        <a
+                          class="menuLink"
+                          href="https://localhost:5002/en-gb/campaign/open-carbonara"
+                          >Learn more about our mission</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a
+                  class="menuLink"
+                  href="https://localhost:5002/en-gb/help-with"
+                  >Help with</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="tier tier-1" js-nav-tier="Locale">
+            <span
+              class="menuImagery"
+              style="
+                background-image: url(https://images.ctfassets.net/97c0xlmyws4f/6maxDLhdzp4hA5DIoxXqcW/a3b9b2778a602e89afd87a9537593b18/genericFields.webp);
+              "
+            ></span>
+            <div class="contentHolder currentLocaleDisplay contain">
+              <button type="button" class="menuBackLink" js-nav-tier-back="">
+                Back
+              </button>
+              <button type="button" class="menuInternalClose" js-nav-toggle="">
+                Close
+              </button>
+              <h2>Selected country</h2>
+              <div class="currentLocale en-gb">
+                <h4>United Kingdom</h4>
+              </div>
+            </div>
+            <div class="contentHolder">
+              <h2>Change country</h2>
+              <!-- EUROPE -->
+              <button class="sectionToggleButton" js-toggle-nav-display="">
+                Europe
+              </button>
+              <div class="sectionToggleContent" js-toggle-nav-content="">
+                <div class="desktopLocaleTitleArea">
+                  <button
+                    type="button"
+                    class="desktopTierClose"
+                    js-close-toggle-alt=""
+                  >
+                    Close
+                  </button>
+                  <h3>Europe</h3>
+                </div>
+                <button
+                  class="localeButton de-at"
+                  type="button"
+                  js-locale-select=""
+                  value="de-at"
+                >
+                  Austria
+                </button>
+                <button
+                  class="localeButton nl-be"
+                  type="button"
+                  js-locale-select=""
+                  value="nl-be"
+                >
+                  Belgium (Dutch)
+                </button>
+                <button
+                  class="localeButton fr-be"
+                  type="button"
+                  js-locale-select=""
+                  value="fr-be"
+                >
+                  Belgium (Français)
+                </button>
+                <button
+                  class="localeButton hr-ba"
+                  type="button"
+                  js-locale-select=""
+                  value="hr-ba"
+                >
+                  Bosnia and Herzegovina
+                </button>
+                <button
+                  class="localeButton bg-bg"
+                  type="button"
+                  js-locale-select=""
+                  value="bg-bg"
+                >
+                  Bulgaria
+                </button>
+                <button
+                  class="localeButton hr-hr"
+                  type="button"
+                  js-locale-select=""
+                  value="hr-hr"
+                >
+                  Croatia
+                </button>
+                <button
+                  class="localeButton cs-cz"
+                  type="button"
+                  js-locale-select=""
+                  value="cs-cz"
+                >
+                  Czech Republic
+                </button>
+                <button
+                  class="localeButton da-dk"
+                  type="button"
+                  js-locale-select=""
+                  value="da-dk"
+                >
+                  Denmark
+                </button>
+                <button
+                  class="localeButton fi-fi"
+                  type="button"
+                  js-locale-select=""
+                  value="fi-fi"
+                >
+                  Finland
+                </button>
+                <button
+                  class="localeButton fr-fr"
+                  type="button"
+                  js-locale-select=""
+                  value="fr-fr"
+                >
+                  France
+                </button>
+                <button
+                  class="localeButton de-de"
+                  type="button"
+                  js-locale-select=""
+                  value="de-de"
+                >
+                  Germany
+                </button>
+                <button
+                  class="localeButton el-gr"
+                  type="button"
+                  js-locale-select=""
+                  value="el-gr"
+                >
+                  Greece
+                </button>
+                <button
+                  class="localeButton hu-hu"
+                  type="button"
+                  js-locale-select=""
+                  value="hu-hu"
+                >
+                  Hungary
+                </button>
+                <button
+                  class="localeButton it-it"
+                  type="button"
+                  js-locale-select=""
+                  value="it-it"
+                >
+                  Italy
+                </button>
+                <button
+                  class="localeButton nl-nl"
+                  type="button"
+                  js-locale-select=""
+                  value="nl-nl"
+                >
+                  Netherlands
+                </button>
+                <button
+                  class="localeButton nn-no"
+                  type="button"
+                  js-locale-select=""
+                  value="nn-no"
+                >
+                  Norway
+                </button>
+                <button
+                  class="localeButton pl-pl"
+                  type="button"
+                  js-locale-select=""
+                  value="pl-pl"
+                >
+                  Poland
+                </button>
+                <button
+                  class="localeButton pt-pt"
+                  type="button"
+                  js-locale-select=""
+                  value="pt-pt"
+                >
+                  Portugal
+                </button>
+                <button
+                  class="localeButton ro-ro"
+                  type="button"
+                  js-locale-select=""
+                  value="ro-ro"
+                >
+                  Romania
+                </button>
+                <button
+                  class="localeButton ru-ru"
+                  type="button"
+                  js-locale-select=""
+                  value="ru-ru"
+                >
+                  Russia
+                </button>
+                <button
+                  class="localeButton sr-latn-rs"
+                  type="button"
+                  js-locale-select=""
+                  value="sr-latn-rs"
+                >
+                  Serbia
+                </button>
+                <button
+                  class="localeButton sl-si"
+                  type="button"
+                  js-locale-select=""
+                  value="sl-si"
+                >
+                  Slovenia
+                </button>
+                <button
+                  class="localeButton es-es"
+                  type="button"
+                  js-locale-select=""
+                  value="es-es"
+                >
+                  Spain
+                </button>
+                <button
+                  class="localeButton sv-se"
+                  type="button"
+                  js-locale-select=""
+                  value="sv-se"
+                >
+                  Sweden
+                </button>
+                <button
+                  class="localeButton de-ch"
+                  type="button"
+                  js-locale-select=""
+                  value="de-ch"
+                >
+                  Switzerland (Deutsch)
+                </button>
+                <button
+                  class="localeButton fr-ch"
+                  type="button"
+                  js-locale-select=""
+                  value="fr-ch"
+                >
+                  Switzerland (Français)
+                </button>
+                <button
+                  class="localeButton tr-tr"
+                  type="button"
+                  js-locale-select=""
+                  value="tr-tr"
+                >
+                  Turkey
+                </button>
+                <button
+                  class="localeButton en-gb"
+                  type="button"
+                  js-locale-select=""
+                  value="en-gb"
+                >
+                  United Kingdom
+                </button>
+              </div>
+              <!-- AMERICAS -->
+              <button class="sectionToggleButton" js-toggle-nav-display="">
+                Americas
+              </button>
+              <div class="sectionToggleContent" js-toggle-nav-content="">
+                <div class="desktopLocaleTitleArea">
+                  <button
+                    type="button"
+                    class="desktopTierClose"
+                    js-close-toggle-alt=""
+                  >
+                    Close
+                  </button>
+                  <h3>Americas</h3>
+                </div>
+                <button
+                  class="localeButton pt-br"
+                  type="button"
+                  js-locale-select=""
+                  value="pt-br"
+                >
+                  Brazil
+                </button>
+                <button
+                  class="localeButton en-ca"
+                  type="button"
+                  js-locale-select=""
+                  value="en-ca"
+                >
+                  Canada (English)
+                </button>
+                <button
+                  class="localeButton fr-ca"
+                  type="button"
+                  js-locale-select=""
+                  value="fr-ca"
+                >
+                  Canada (Français)
+                </button>
+                <button
+                  class="localeButton es-la"
+                  type="button"
+                  js-locale-select=""
+                  value="es-la"
+                >
+                  Latam
+                </button>
+                <button
+                  class="localeButton es-mx"
+                  type="button"
+                  js-locale-select=""
+                  value="es-mx"
+                >
+                  Mexico
+                </button>
+                <button
+                  class="localeButton es-pr"
+                  type="button"
+                  js-locale-select=""
+                  value="es-pr"
+                >
+                  Puerto Rico
+                </button>
+                <button
+                  class="localeButton en-us"
+                  type="button"
+                  js-locale-select=""
+                  value="en-us"
+                >
+                  United States
+                </button>
+              </div>
+              <!-- AFRICA, ASIA & AUSTRALIA -->
+              <button class="sectionToggleButton" js-toggle-nav-display="">
+                Africa, Asia &amp; Australia
+              </button>
+              <div class="sectionToggleContent" js-toggle-nav-content="">
+                <div class="desktopLocaleTitleArea">
+                  <button
+                    type="button"
+                    class="desktopTierClose"
+                    js-close-toggle-alt=""
+                  >
+                    Close
+                  </button>
+                  <h3>Africa, Asia &amp; Australia</h3>
+                </div>
+                <button
+                  class="localeButton ar"
+                  type="button"
+                  js-locale-select=""
+                  value="ar"
+                >
+                  Arabic
+                </button>
+                <button
+                  class="localeButton en-au"
+                  type="button"
+                  js-locale-select=""
+                  value="en-au"
+                >
+                  Australia
+                </button>
+                <button
+                  class="localeButton he-il"
+                  type="button"
+                  js-locale-select=""
+                  value="he-il"
+                >
+                  Israel
+                </button>
+                <button
+                  class="localeButton en-sg"
+                  type="button"
+                  js-locale-select=""
+                  value="en-sg"
+                >
+                  Singapore (English)
+                </button>
+                <button
+                  class="localeButton ko-kr"
+                  type="button"
+                  js-locale-select=""
+                  value="ko-kr"
+                >
+                  South Korea
+                </button>
+                <button
+                  class="localeButton uae"
+                  type="button"
+                  js-locale-select=""
+                  value="uae"
+                >
+                  United Arab Emirates (English)
+                </button>
+              </div>
+              <button
+                class="sectionToggleButton sectionSingleOption"
+                js-locale-select=""
+                value="global"
+              >
+                International (English)
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <main class="standardPage">
+              <!-- CONTENT -->
+      </main>
+
+      <footer>
+        <div class="contentHolder contain">
+          <ul class="socialLinks contain">
+            <li class="instagram">
+              <a
+                href="https://instagram.com/barillaus/"
+                target="_blank"
+                rel="nofollow"
+                >Instagram2</a
+              >
+            </li>
+            <li class="twitter">
+              <a
+                href="https://twitter.com/BarillaUS"
+                target="_blank"
+                rel="nofollow"
+                >Twitter</a
+              >
+            </li>
+            <li class="pinterest">
+              <a
+                href="https://pinterest.com/barillaus/"
+                target="_blank"
+                rel="nofollow"
+                >Pinterest</a
+              >
+            </li>
+            <li class="facebook">
+              <a
+                href="https://www.facebook.com/BarillaUK"
+                target="_blank"
+                rel="nofollow"
+                >Facebook</a
+              >
+            </li>
+            <li class="youtube">
+              <a
+                href="https://www.youtube.com/user/barillaus"
+                target="_blank"
+                rel="nofollow"
+                >YouTube</a
+              >
+            </li>
+            <li class="tumblr">
+              <a href="https://www.tumblr.com/" target="_blank" rel="nofollow"
+                >Tumblr</a
+              >
+            </li>
+          </ul>
+          <p class="helpLink clear contain">
+            <a href="https://localhost:5002/en-gb/new/campaign/asasASAS"
+              >Need help or have some feedback?</a
+            >
+          </p>
+          <ul class="navLinks">
+            <li>
+              <a href="https://localhost:5002/en-gb/legal/privacy-policy"
+                >Privacy Policy</a
+              >
+            </li>
+            <li>
+              <a href="https://localhost:5002/en-gb/legal/privacy-policy-member"
+                >Privacy Policy (member)</a
+              >
+            </li>
+            <li>
+              <a href="https://localhost:5002/en-gb/legal/cookie-policy"
+                >Cookie Policy</a
+              >
+            </li>
+            <li>
+              <a href="https://localhost:5002/en-gb/legal/terms-and-conditions"
+                >Terms and Conditions</a
+              >
+            </li>
+            <li>
+              <a href="https://www.barillagroup.com/">Barilla Group</a>
+            </li>
+            <li>
+              <a
+                href="https://localhost:5002/en-gb/help-with/enjoying-pasta/tips-and-tricks-for-cooking-pasta"
+                >Tips &amp; tricks for cooking pasta</a
+              >
+            </li>
+            <li>
+              <!-- OneTrust Cookies Settings button start -->
+              <button id="ot-sdk-btn" class="ot-sdk-show-settings">
+                Cookie Settings
+              </button>
+              <!--OneTrust Cookies Settings button end -->
+            </li>
+          </ul>
+          <div class="selectStyleHolder">
+            <label class="access" for="siteSelect">Site Select</label>
+            <select
+              class="siteSelect dropDownNavigation"
+              name="siteSelect"
+              id="siteSelect"
+            >
+              <option value="https://dev-barilla-or.barilla.com/ar">
+                Arabic
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/en-au">
+                Australia
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/de-at">
+                Austria
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/nl-be">
+                Belgium (Dutch)
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/fr-be">
+                Belgium (Français)
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/hr-ba">
+                Bosnia and Herzegovina
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/pt-br">
+                Brazil
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/bg-bg">
+                Bulgaria
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/en-ca">
+                Canada (English)
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/fr-ca">
+                Canada (Français)
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/hr-hr">
+                Croatia
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/cs-cz">
+                Czech Republic
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/da-dk">
+                Denmark
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/fi-fi">
+                Finland
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/fr-fr">
+                France
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/de-de">
+                Germany
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/el-gr">
+                Greece
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/hu-hu">
+                Hungary
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/global">
+                International (English)
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/he-il">
+                Israel
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/it-it">
+                Italy
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/es-la">
+                Latam
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/es-mx">
+                Mexico
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/nl-nl">
+                Netherlands
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/nn-no">
+                Norway
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/pl-pl">
+                Poland
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/pt-pt">
+                Portugal
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/es-pr">
+                Puerto Rico
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/ro-ro">
+                Romania
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/ru-ru">
+                Russia
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/sr-latn-rs">
+                Serbia
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/en-sg">
+                Singapore (English)
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/sl-si">
+                Slovenia
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/ko-kr">
+                South Korea
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/es-es">
+                Spain
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/sv-se">
+                Sweden
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/de-ch">
+                Switzerland (Deutsch)
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/fr-ch">
+                Switzerland (Français)
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/tr-tr">
+                Turkey
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/uae">
+                United Arab Emirates (English)
+              </option>
+              <option
+                value="https://dev-barilla-or.barilla.com/en-gb"
+                selected="selected"
+              >
+                United Kingdom
+              </option>
+              <option value="https://dev-barilla-or.barilla.com/en-us">
+                United States
+              </option>
+            </select>
+          </div>
+          <p class="address">
+            2024 Barilla G. e R. F.lli S.p.A. P.I. 01654010345
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      $(function () {
+        var layout = new Pages.Layouts.Layout();
+      });
+    </script>
+
+
+  </body>
+</html>
