@@ -9,11 +9,25 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
+function makeid(length) {
+    let result = '';
+    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    const charactersLength = characters.length;
+    let counter = 0;
+    while (counter < length) {
+      result += characters.charAt(Math.floor(Math.random() * charactersLength));
+      counter += 1;
+    }
+    return result;
+}
+
 // Helper function to replace './' with '{assetUrl}/' in CSS, JS, and HTML files
 function replaceAssetUrls(content) {
+
+    let cacheBusterId = makeid(8);
     // This regex replaces URLs starting with "./" in href, src, and url() attributes
     return content.replace(/(href|src)\s*=\s*["']\.\/(.*?)["']/gi, '$1="{assetUrl}/$2"')
-                  .replace(/url\(\s*["']\.\/(.*?)["']\s*\)/gi, 'url("{assetUrl}/$1")');
+                  .replace(/url\(\s*["']\.\/(.*?)["']\s*\)/gi, 'url("{assetUrl}/$1")').append(`?v=${cacheBusterId}`);
 }
 
 // Function to recursively add files to the archive, modifying relevant files
