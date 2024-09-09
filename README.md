@@ -1,20 +1,20 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+This is the Barilla static campaign builder project, its designed to streamline the creation of static campaigns to be uploaded into contentful and displayed within the Barilla website. This project provides a webserver and barilla template to allow the developer to view how the campaign should look after being uploaded correctly to contentful and export a build of the campaign files in the correct format.
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+
+## Project dependencies
+This application is built to work with nodeJs v20.10.0
+
+## First run
+1. run `npm install` to install npm dependencies
+2. run the built in webserver `npm run start`
+3. browse to the url of the desired file within the `src/` folder using the local port provided
+
+# Campaign development
+To build a new campaign its ideal to first fork this repo, this will allow any upstream changes to the templates to be easily applied to your campaign in the future. Once you have prepared yure repo, your campaign files will be added to the `src/` folder, with all supporting assets (js/css/img/fonts etc) being added to the `assets/` folder. To work successfully, each locale requires its own html file in the root of the `src/` folder with th filename format `{locale}.html`, the locales should be supplied to you by Barilla. To make sure all assets work with the build process, please make sure all asset source urls are relative and start with `./`, this includes in css files.
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+When the campaign is ready to be exported for upload to contentful, you need to run the `npm run build` command. this will ask you for the name of the campaign to use for the generated zip. Please only use aplhanumeric characters and `-` to generate the names.
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+Once you have the generated zip, please send this to the appropriate contact to upload to the campaign within Contentful.
