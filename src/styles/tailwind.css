@@ -1,3 +1,89 @@
+/* fonts */
+@font-face {
+  font-family: "AcuminProCondensed";
+  src: url("./fonts/acumin-pro-condensed-regular.otf") format("opentype");
+
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AgipoBoldCondensed";
+  src: url("./fonts/agipo_bold_condensed-webfont.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NettoProBold";
+  src: url("./fonts/NettoPro-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .our_container {
+    @apply md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1240px] 2xl:max-w-[1440px] mx-auto 
+           px-4 sm:px-10 xl:px-20;
+  }
+}
+
+@layer base {
+  h1 {
+    @apply text-white font-agipo text-[30px] md:text-[36px] lg:text-[48px] xl:text-[64px] leading-9 md:leading-[44px] lg:leading-[56px] xl:leading-[64px];
+  }
+
+  h2 {
+    @apply text-xl text-white;
+  }
+
+  p {
+    @apply text-xl font-normal font-acumin leading-6 text-white pb-0;
+  }
+  span {
+    @apply text-xs text-white font-netto tracking-8percent;
+  }
+
+  html {
+    scroll-snap-type: y mandatory;
+  }
+
+  section {
+    scroll-snap-align: start;
+  }
+
+  /* Optional: Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body.scroll-down .bronzo-logo,
+  body.scroll-up .bronzo-logo {
+    display: none;
+  }
+}
+
+/*-------------- clippy paths---------- */
+.clippy {
+  clip-path: ellipse(52% 100% at 50% 0%);
+}
+.degree-section-clippy {
+  clip-path: ellipse(60% 50% at 50% 100%);
+}
+
+.card-clippy {
+  clip-path: polygon(
+    49% 12%,
+    100% 0,
+    100% 100%,
+    70% 100%,
+    30% 100%,
+    0 100%,
+    0 0
+  );
+}
+/*------------ end ------------- */

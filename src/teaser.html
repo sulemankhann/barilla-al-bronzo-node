@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Content Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <!-- navbar and hero section -->
+    <section class="bg-hero-gradient pt-20 lg:pt-[100px]">
+      <!-- container -->
+      <div class="our_container">
+        <!-- logo -->
+        <div>
+          <div class="lg:hidden">
+            <div class="flex items-center justify-between">
+              <!-- left content -->
+              <div class="flex items-center gap-3">
+                <img src="./assets/images/arrow-left.svg" />
+                <span>Back</span>
+              </div>
+
+              <!-- right content -->
+              <div class="flex items-center gap-3 py-6">
+                <span>Italy</span>
+                <img src="./assets/images/italy.svg" />
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center lg:mt-6 bronzo-logo">
+            <img src="./assets/images/Al-Bronzo.png" class="w-44 h-auto" />
+          </div>
+        </div>
+
+        <!-- hero section -->
+        <div class="flex flex-col justify-center mt-9">
+          <h1
+            class="w-[260px] md:w-[300px] lg:w-[400px] xl:w-[530px] mx-auto text-center uppercase"
+          >
+            Nata per catturare il sugo
+          </h1>
+
+          <p
+            class="w-[340px] md:w-[370px] lg:w-[450px] mx-auto lg:text-2xl text-center pt-5"
+          >
+            Barilla Al Bronzo cattura il sugo fino all'ultima goccia, per
+            un'esperienza di gusto straordinaria.
+          </p>
+
+          <img
+            src="./assets/images/hero-imag.webp"
+            alt="hero"
+            class="w-80 md:w-[450px] lg:w-[430px] xl:w-[560px] mx-auto h-auto mt-9 md:mt-12"
+          />
+
+          <!-- arrow svg -->
+          <img
+            src="./assets/images/arrow-down.svg"
+            alt="hero"
+            class="w-4 mx-auto h-auto my-11"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- 360 degree section -->
+    <section class="relative bg-red pt-10 pb-28 lg:pb-36">
+      <div class="our_container">
+        <h1 class="w-[260px] sm:w-full mx-auto text-center uppercase">
+          REINVENTARE LA TRADIZIONE
+        </h1>
+
+        <p
+          class="w-[280px] md:w-[560px] lg:w-[660px] lg:text-2xl mx-auto text-center pt-5"
+        >
+          Una nuova, elegante confezione da 500 grammi, pensata per celebrare la
+          qualità di Barilla Al Bronzo e sottolinearne l'eccezionale presa sul
+          sugo.
+        </p>
+
+        <img
+          src="./assets/images/360-degree.webp"
+          alt="hero"
+          class="w-80 md:w-full lg:w-[760px] xl:w-[982px] mx-auto h-auto mt-9 md:mt-16"
+        />
+
+        <!-- 360 degree svg -->
+        <img
+          src="./assets/images/360-degree.svg"
+          alt="hero"
+          class="w-24 mx-auto mt-6 md:mt-9"
+        />
+      </div>
+    </section>
+
+    <!-- Product Carousel Section -->
+    <section class="relative bg-bronze-200">
+      <!-- clippy path div -->
+      <div
+        class="degree-section-clippy w-full h-[20%] lg:h-[25%] -top-[150px] md:-top-[120px] lg:-top-[180px] absolute bg-bronze-200 z-40"
+      ></div>
+
+      <!-- container -->
+      <div class="our_container pt-4 pb-10">
+        <h1
+          class="w-[260px] sm:w-[420px] lg:w-[550px] xl:w-[820px] mx-auto text-center uppercase"
+        >
+          TUTTI I FORMATI PER ACCONTENTARE OGNI PALATO
+        </h1>
+
+        <p
+          class="w-[320px] sm:w-[380px] md:w-[520px] lg:w-[560px] xl:w-[530px] mx-auto text-center pt-5"
+        >
+          Il loro design, sapientemente realizzato dai nostri esperti, rende
+          ogni formato di pasta perfetto per vivere un'esperienza gastronomica
+          unica e intensa.
+        </p>
+
+        <!-- cards -->
+        <div
+          class="max-w-[328px] md:max-w-[486px] lg:max-w-[802px] xl:max-w-[976px] mx-auto"
+        >
+          <div class="swiper mySwiper relative mt-10">
+            <div class="swiper-wrapper">
+              <!-- card 1 -->
+              <div
+                class="swiper-slide relative bg-red rounded-xl pt-6 md:pt-5 pb-11 md:pb-9 lg:pb-12 z-20"
+              >
+                <img
+                  src="./assets/images/carasoul-section/Al-Bronzo.svg"
+                  alt="pic"
+                  class="w-[68px] mx-auto h-auto"
+                />
+                <h2 class="text-center tracking-8percent uppercase pt-3">
+                  mezzi Rigatoni
+                </h2>
+                <img
+                  src="./assets/images/carasoul-section/Farfalline.webp"
+                  alt="pic"
+                  class="w-24 mx-auto h-auto mt-4 md:mt-3 lg:mt-4"
+                />
+                <!-- product img -->
+                <img
+                  src="./assets/images/carasoul-section/ITA_Mezzi Rigatoni.webp"
+                  alt="pic"
+                  class="w-40 md:w-[110px] lg:w-auto mx-auto h-auto md:h-[148px] lg:h-[182px] xl:h-[200px] mt-8 md:mt-6 lg:mt-9"
+                />
+                <!-- blue div absolute -->
+                <div
+                  class="card-clippy absolute w-full h-[160px] md:h-[130px] lg:h-[155px] bg-blue bottom-0 left-0 right-0 rounded-b-xl -z-10"
+                ></div>
+              </div>
+
+              <!-- card 2 -->
+              <div
+                class="swiper-slide relative bg-red rounded-xl pt-6 md:pt-5 pb-11 md:pb-9 lg:pb-12 z-20"
+              >
+                <img
+                  src="./assets/images/carasoul-section/Al-Bronzo.svg"
+                  alt="pic"
+                  class="w-[68px] mx-auto h-auto"
+                />
+                <h2 class="text-center tracking-8percent uppercase pt-3">
+                  mezzi Rigatoni
+                </h2>
+                <img
+                  src="./assets/images/carasoul-section/Farfalline.webp"
+                  alt="pic"
+                  class="w-24 mx-auto h-auto mt-4 md:mt-3 lg:mt-4"
+                />
+                <!-- product img -->
+                <img
+                  src="./assets/images/carasoul-section/ITA_Mezzi Rigatoni.webp"
+                  alt="pic"
+                  class="w-40 md:w-[110px] lg:w-auto mx-auto h-auto md:h-[148px] lg:h-[182px] xl:h-[200px] mt-8 md:mt-6 lg:mt-9"
+                />
+                <!-- blue div absolute -->
+                <div
+                  class="card-clippy absolute w-full h-[160px] md:h-[130px] lg:h-[155px] bg-blue bottom-0 left-0 right-0 rounded-b-xl -z-10"
+                ></div>
+              </div>
+
+              <!-- card 3 -->
+              <div
+                class="swiper-slide relative w-full bg-red mx-auto md:mx-0 rounded-xl pt-6 md:pt-5 pb-11 md:pb-9 lg:pb-12 z-20"
+              >
+                <img
+                  src="./assets/images/carasoul-section/Al-Bronzo.svg"
+                  alt="pic"
+                  class="w-[68px] mx-auto h-auto"
+                />
+                <h2 class="text-center tracking-8percent uppercase pt-3">
+                  mezzi Rigatoni
+                </h2>
+                <img
+                  src="./assets/images/carasoul-section/Farfalline.webp"
+                  alt="pic"
+                  class="w-24 mx-auto h-auto mt-4 md:mt-3 lg:mt-4"
+                />
+                <!-- product img -->
+                <img
+                  src="./assets/images/carasoul-section/ITA_Mezzi Rigatoni.webp"
+                  alt="pic"
+                  class="w-40 md:w-[110px] lg:w-auto mx-auto h-auto md:h-[148px] lg:h-[182px] xl:h-[200px] mt-8 md:mt-6 lg:mt-9"
+                />
+                <!-- blue div absolute -->
+                <div
+                  class="card-clippy absolute w-full h-[160px] md:h-[130px] lg:h-[155px] bg-blue bottom-0 left-0 right-0 rounded-b-xl -z-10"
+                ></div>
+              </div>
+
+              <!-- card 4 -->
+              <div
+                class="swiper-slide relative w-full bg-red mx-auto md:mx-0 rounded-xl pt-6 md:pt-5 pb-11 md:pb-9 lg:pb-12 z-20"
+              >
+                <img
+                  src="./assets/images/carasoul-section/Al-Bronzo.svg"
+                  alt="pic"
+                  class="w-[68px] mx-auto h-auto"
+                />
+                <h2 class="text-center tracking-8percent uppercase pt-3">
+                  mezzi Rigatoni
+                </h2>
+                <img
+                  src="./assets/images/carasoul-section/Farfalline.webp"
+                  alt="pic"
+                  class="w-24 mx-auto h-auto mt-4 md:mt-3 lg:mt-4"
+                />
+                <!-- product img -->
+                <img
+                  src="./assets/images/carasoul-section/ITA_Mezzi Rigatoni.webp"
+                  alt="pic"
+                  class="w-40 md:w-[110px] lg:w-auto mx-auto h-auto md:h-[148px] lg:h-[182px] xl:h-[200px] mt-8 md:mt-6 lg:mt-9"
+                />
+                <!-- blue div absolute -->
+                <div
+                  class="card-clippy absolute w-full h-[160px] md:h-[130px] lg:h-[155px] bg-blue bottom-0 left-0 right-0 rounded-b-xl -z-10"
+                ></div>
+              </div>
+
+              <!-- card 5 -->
+              <div
+                class="swiper-slide relative w-full bg-red mx-auto md:mx-0 rounded-xl pt-6 md:pt-5 pb-11 md:pb-9 lg:pb-12 z-20"
+              >
+                <img
+                  src="./assets/images/carasoul-section/Al-Bronzo.svg"
+                  alt="pic"
+                  class="w-[68px] mx-auto h-auto"
+                />
+                <h2 class="text-center tracking-8percent uppercase pt-3">
+                  mezzi Rigatoni
+                </h2>
+                <img
+                  src="./assets/images/carasoul-section/Farfalline.webp"
+                  alt="pic"
+                  class="w-24 mx-auto h-auto mt-4 md:mt-3 lg:mt-4"
+                />
+                <!-- product img -->
+                <img
+                  src="./assets/images/carasoul-section/ITA_Mezzi Rigatoni.webp"
+                  alt="pic"
+                  class="w-40 md:w-[110px] lg:w-auto mx-auto h-auto md:h-[148px] lg:h-[182px] xl:h-[200px] mt-8 md:mt-6 lg:mt-9"
+                />
+                <!-- blue div absolute -->
+                <div
+                  class="card-clippy absolute w-full h-[160px] md:h-[130px] lg:h-[155px] bg-blue bottom-0 left-0 right-0 rounded-b-xl -z-10"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- pagination -->
+        <div
+          class="w-[300px] md:w-[454px] mx-auto flex items-center gap-3 mt-10"
+        >
+          <!-- progress bar -->
+          <div id="progress-bar" class="w-full h-[2px] bg-white relative">
+            <div
+              id="progress-bar-fill"
+              class="h-full bg-red absolute top-0 left-0"
+            ></div>
+          </div>
+
+          <!-- prev button -->
+          <div
+            class="custom-button-prev w-full max-w-8 h-8 flex flex-shrink-1 items-center justify-center rounded-full !border-2 border-white"
+          >
+            <img
+              src="./assets/images/carasoul-section/left arrow.svg"
+              alt="pic"
+            />
+          </div>
+
+          <!-- next button -->
+          <div
+            class="custom-button-next w-full max-w-8 h-8 flex items-center justify-center rounded-full border-2 border-white"
+          >
+            <img
+              src="./assets/images/carasoul-section/righ-arrow.svg"
+              alt="pic"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- text + image section-->
+    <section
+      class="h-[640px] md:h-[432px] lg:h-[576px] xl:h-[708px] 2xl:h-[808px] bg-text-img-mobil md:bg-text-img-desktop bg-cover bg-center object-right flex items-center justify-center"
+    >
+      <p class="lg:text-2xl md:w-[600px] lg:w-full mx-auto text-center">
+        <span class="text-xl lg:text-2xl font-acumin tracking-normal block"
+          >Sono i grani duri pregiati, coltivati in Italia,</span
+        >
+        a donare a Barilla Al Bronzo il gusto rotondo e leggermente tostato.
+      </p>
+    </section>
+
+    <!-- video + image section -->
+    <section
+      class="h-[640px] md:h-[432px] lg:h-[576px] xl:h-[708px] 2xl:h-[808px] bg-video-img-mobil md:bg-video-img-desktop bg-cover object-cover flex items-center justify-center"
+    >
+      <div>
+        <h1
+          class="w-[260px] lg:w-[360px] xl:w-[460px] mx-auto text-center uppercase"
+        >
+          UN’eccellente tenuta del sugo
+        </h1>
+        <p class="w-[312px] sm:w-[400px] md:w-[520px] mx-auto text-center pt-5">
+          Risultato di decenni di esperienza, la nostra trafilatura al bronzo
+          conferisce alla pasta Barilla Al Bronzo una superficie ruvida e porosa
+          che aderisce senza sforzo a ogni goccia di sugo.
+        </p>
+        <p class="hidden lg:block lg:w-[430px] mx-auto text-center pt-5">
+          Il nostro grano duro di alta qualità, accuratamente selezionato, dona
+          alla pasta un sapore rotondo e leggermente tostato, dando vita a
+          un'esperienza di gusto indimenticabile.
+        </p>
+      </div>
+    </section>
+
+    <!-- video Carousel section -->
+    <section class="bg-red py-16">
+      <!-- img + text -->
+      <div class="our_container">
+        <h1
+          class="w-[328px] lg:w-[528px] xl:w-[700px] mx-auto text-center uppercase"
+        >
+          UN PIACERE PER GLI OCCHI E PER IL PALATO
+        </h1>
+        <p class="lg:text-2xl text-center pt-5">
+          Innamorati di ricette classiche e creative con Barilla Al Bronzo.
+        </p>
+        <div class="py-12">
+          <img
+            src="./assets/images/video-carasoul-section/desk.webp"
+            alt="pic"
+            class="w-full h-auto mx-auto rounded-2xl"
+          />
+        </div>
+      </div>
+
+      <!-- video carousel -->
+      <div>
+        <h1
+          class="w-[328px] lg:w-[428px] xl:w-[600px] mx-auto text-center uppercase"
+        >
+          IMPARA DA UNO CHEF STELLATO MICHELIN
+        </h1>
+        <p class="lg:text-2xl w-[250px] sm:w-full mx-auto text-center pt-5">
+          Ricrea queste ricette di pasta Barilla Al Bronzo dello Chef Oldani.
+        </p>
+
+        <div
+          class="w-full max-w-[320px] md:max-w-[586px] lg:max-w-[870px] xl:w-[1020px] mx-auto mt-8 md:mt-10 lg:mt-12"
+        >
+          <div class="swiper videoSwiper relative mt-10">
+            <div class="swiper-wrapper">
+              <!-- img1 -->
+              <div class="swiper-slide">
+                <img
+                  src="./assets/images/video-carasoul-section/img1.webp"
+                  alt="pic"
+                  class="w-full h-[430px] object-cover rounded-2xl"
+                />
+              </div>
+
+              <!-- img2 -->
+              <div class="swiper-slide">
+                <img
+                  src="./assets/images/video-carasoul-section/img2.webp"
+                  alt="pic"
+                  class="w-full h-[430px] object-cover rounded-2xl"
+                />
+              </div>
+
+              <!-- img3 -->
+              <div class="swiper-slide">
+                <img
+                  src="./assets/images/video-carasoul-section/img3.webp"
+                  alt="pic"
+                  class="w-full h-[430px] object-cover rounded-2xl"
+                />
+              </div>
+              <!-- img4 -->
+              <div class="swiper-slide">
+                <img
+                  src="./assets/images/video-carasoul-section/img1.webp"
+                  alt="pic"
+                  class="w-full h-[430px] object-cover rounded-2xl"
+                />
+              </div>
+
+              <!-- img5 -->
+              <div class="swiper-slide">
+                <img
+                  src="./assets/images/video-carasoul-section/img2.webp"
+                  alt="pic"
+                  class="w-full h-[430px] object-cover rounded-2xl"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- pagination -->
+        <div
+          class="w-[300px] md:w-[454px] mx-auto flex items-center gap-3 mt-8"
+        >
+          <!-- progress bar -->
+          <div id="progress-bar" class="w-full h-[2px] bg-white relative">
+            <div
+              id="video-progress-bar-fill"
+              class="h-full bg-blue absolute top-0 left-0"
+            ></div>
+          </div>
+
+          <!-- prev button -->
+          <div
+            class="custom-video-button-prev w-full max-w-8 h-8 flex flex-shrink-1 items-center justify-center rounded-full !border-2 border-white"
+          >
+            <img
+              src="./assets/images/carasoul-section/left arrow.svg"
+              alt="pic"
+            />
+          </div>
+
+          <!-- next button -->
+          <div
+            class="custom-video-button-next w-full max-w-8 h-8 flex items-center justify-center rounded-full border-2 border-white"
+          >
+            <img
+              src="./assets/images/carasoul-section/righ-arrow.svg"
+              alt="pic"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      // product carousel
+      var swiper = new Swiper(".mySwiper", {
+        lazy: true,
+        pagination: false,
+        navigation: {
+          nextEl: ".custom-button-next",
+          prevEl: ".custom-button-prev",
+        },
+        slidesPerView: 1,
+        spaceBetween: 16,
+        breakpoints: {
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+          },
+        },
+        on: {
+          slideChange: function () {
+            updateProgressBar(this);
+            updateNavigationButtons(this);
+          },
+        },
+      });
+
+      function updateProgressBar(swiperInstance) {
+        const totalSlides = swiperInstance.slides.length;
+        const currentSlide = swiperInstance.activeIndex + 1;
+        const progress = (currentSlide / totalSlides) * 100;
+        document.getElementById(
+          "progress-bar-fill"
+        ).style.width = `${progress}%`;
+      }
+
+      // Initialize the progress bar
+      updateProgressBar(swiper);
+
+      // video swiper
+      var videoSwiper = new Swiper(".videoSwiper", {
+        lazy: true,
+        pagination: false,
+        navigation: {
+          nextEl: ".custom-video-button-next",
+          prevEl: ".custom-video-button-prev",
+        },
+        slidesPerView: 1,
+        spaceBetween: 16,
+        breakpoints: {
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+          },
+        },
+        on: {
+          slideChange: function () {
+            VideoUpdateProgressBar(this);
+            updateNavigationButtons(this);
+          },
+        },
+      });
+
+      function VideoUpdateProgressBar(swiperInstance) {
+        const totalSlides = swiperInstance.slides.length;
+        const currentSlide = swiperInstance.activeIndex + 1;
+        const progress = (currentSlide / totalSlides) * 100;
+        document.getElementById(
+          "video-progress-bar-fill"
+        ).style.width = `${progress}%`;
+      }
+
+      // Initialize the progress bar
+      VideoUpdateProgressBar(videoSwiper);
+    </script>
+  </body>
+</html>
