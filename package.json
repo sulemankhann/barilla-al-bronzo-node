@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "build": "node build.js",
-    "build-css": "npx tailwindcss build src/styles/tailwind.css -o src/assets/styles.css  --watch"
+    "start": "npm-run-all --parallel start:js start:css",
+    "start:js": "node index.js",
+    "start:css": "npx tailwindcss build src/styles/tailwind.css -o src/assets/styles.css --watch",
+    "build": "npm-run-all build:css build:js",
+    "build:js": "node build.js",
+    "build:css": "npx tailwindcss build src/styles/tailwind.css -o src/assets/styles.css"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +26,7 @@
   "devDependencies": {
     "archiver": "^7.0.1",
     "autoprefixer": "^10.4.20",
+    "npm-run-all": "^4.1.5",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.11"
   }
