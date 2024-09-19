@@ -34,7 +34,7 @@
 
 @layer base {
   h1 {
-    @apply text-white font-agipo text-[30px] md:text-[36px] lg:text-[48px] xl:text-[64px] leading-9 md:leading-[44px] lg:leading-[56px] xl:leading-[64px];
+    @apply text-white font-agipo text-[30px] md:text-[36px] lg:text-[48px] xl:text-[64px] leading-9 md:leading-[44px] lg:leading-[56px] xl:leading-[77px];
   }
 
   h2 {
@@ -48,18 +48,18 @@
     @apply text-xs text-white font-netto tracking-8percent;
   }
 
-  html {
+  /* html {
     scroll-snap-type: y mandatory;
   }
 
   section {
     scroll-snap-align: start;
-  }
+  } */
 
   /* Optional: Smooth scrolling */
-  html {
+  /* html {
     scroll-behavior: smooth;
-  }
+  } */
 
   body.scroll-down .bronzo-logo,
   body.scroll-up .bronzo-logo {
