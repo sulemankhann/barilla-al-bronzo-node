@@ -15,8 +15,9 @@ module.exports = {
       backgroundImage: {
         // teaser page
         "text-img-desktop": "url('./images/text-section/bg-desktop.webp')",
-        "text-img-mobil": "url('./images/text-section/bg-mobil.webp')",
-        "video-img-mobil": "url('./images/teaser-video-section/bg-mobil.webp')",
+        "text-img-mobile": "url('./images/text-section/bg-mobile.webp')",
+        "video-img-mobile":
+          "url('./images/teaser-video-section/bg-mobile.webp')",
         "video-img-desktop":
           "url('./images/teaser-video-section/bg-desktop.webp')",
         // launch page
@@ -25,8 +26,8 @@ module.exports = {
         "launch-video-img": "url('./images/girl-bg.webp')",
         "launch-img-text-desktop":
           "url('./images/image-text-section/bg-desktop.webp')",
-        "launch-img-text-mobil":
-          "url('./images/image-text-section/bg-mobil.webp')",
+        "launch-img-text-mobile": "url('./images/bg-mobile.webp')",
+        "david-oldani": "url('./images/davide-oldani.png')",
         // gradient
         "bronze-gradient":
           "linear-gradient(210.29deg, #966E45 10.99%, #D6B587 50%, #895A2E 89.01%)",

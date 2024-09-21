@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Main Content Page</title>
+    <title>Al Bronzo</title>
 
     <!-- Swiper CSS -->
     <link
@@ -38,7 +38,7 @@
       class="main-section relative h-[640px] sm:h-[900px] md:h-[1024px] lg:h-[886px] xl:h-[1080px] 2xl:h-[1180px] 3xl:h-[1320px] bg-launch-hero-mobile lg:bg-launch-hero-desktop bg-cover bg-bottom pt-20 lg:pt-[100px]"
     >
       <!-- container -->
-      <div class="our_container">
+      <div class="custom-container">
         <!-- logo -->
         <div>
           <!-- logo -->
@@ -57,11 +57,12 @@
         </div>
       </div>
 
-      <!-- toggle arrow button svg -->
+      <!-- arrow down svg -->
       <img
+        id="scroll-arrow"
         src="./assets/images/arrow-down.svg"
         alt="hero"
-        class="w-4 h-auto absolute left-1/2 -translate-x-1/2 bottom-10 md:bottom-16"
+        class="w-4 h-auto absolute left-1/2 -translate-x-1/2 bottom-10 md:bottom-16 bounce-animation cursor-pointer"
       />
     </section>
 
@@ -123,7 +124,7 @@
 
       <!-- right absolute img -->
       <img
-        src="./assets/images/Asset-right-mobil.png"
+        src="./assets/images/Asset-right-mobile.png"
         class="lg:hidden absolute w-14 md:w-20 h-[220px] md:h-[270px] top-0 right-0"
       />
 
@@ -133,9 +134,9 @@
       />
 
       <!-- left absolute img -->
-      <!-- mobil -->
+      <!-- mobile -->
       <img
-        src="./assets/images/Asset-left-mobil.webp"
+        src="./assets/images/Asset-left-mobile.webp"
         class="md:hidden absolute w-20 h-[285px] bottom-6 left-0"
       />
       <!-- desktop -->
@@ -174,7 +175,7 @@
     </section>
 
     <section class="bg-red">
-      <div class="our_container pt-16 pb-8">
+      <div class="custom-container pt-16 pb-8">
         <h1
           class="w-[300px] md:w-full lg:w-[500px] xl:w-[600px] mx-auto text-center uppercase"
         >
@@ -204,7 +205,7 @@
 
     <!-- 360 degree section -->
     <section class="relative bg-red pt-10 md:pt-16 pb-28 lg:pb-36">
-      <div class="our_container">
+      <div class="custom-container">
         <h1 class="w-full mx-auto text-center uppercase">
           REINVENTING TRADITION
         </h1>
@@ -222,7 +223,7 @@
           <img
             id="jsv-image"
             alt="example"
-            src="./assets/images/360/it/BARILLA AL BRONZO_MEZZI RIGATONI_ITA_F000.png"
+            src="./assets/images/360/eu/BARILLA AL BRONZO_MEZZI RIGATONI_EU_F000.png"
           />
         </div>
 
@@ -243,7 +244,7 @@
       ></div>
 
       <!-- container -->
-      <div class="our_container pt-4 pb-10">
+      <div class="custom-container pt-4 pb-10">
         <h1
           class="w-[300px] sm:w-[420px] lg:w-[550px] xl:w-[730px] mx-auto text-center uppercase"
         >
@@ -264,155 +265,103 @@
           <div class="swiper mySwiper relative mt-10">
             <div class="swiper-wrapper">
               <!-- card 1 -->
-              <a
-                href="#"
-                class="swiper-slide relative bg-red rounded-xl pt-6 md:pt-5 pb-11 md:pb-9 lg:pb-12 z-20"
-              >
-                <img
-                  src="./assets/images/carasoul-section/Al-Bronzo.svg"
-                  alt="pic"
-                  class="w-[68px] mx-auto h-auto"
-                />
-                <h2 class="text-center tracking-8percent uppercase pt-3">
-                  mezzi Rigatoni
-                </h2>
-                <img
-                  src="./assets/images/carasoul-section/Farfalline.webp"
-                  alt="pic"
-                  class="w-24 mx-auto h-auto mt-4 md:mt-3 lg:mt-4"
-                />
-
-                <!-- product img -->
-                <img
-                  src="./assets/images/carasoul-section/ITA_Mezzi Rigatoni.webp"
-                  alt="pic"
-                  class="w-40 md:w-[110px] lg:w-auto mx-auto h-auto md:h-[148px] lg:h-[182px] xl:h-[200px] mt-8 md:mt-6 lg:mt-9"
-                />
-                <!-- blue div absolute -->
-                <div
-                  class="card-clippy absolute w-full h-[160px] md:h-[130px] lg:h-[155px] bg-blue bottom-0 left-0 right-0 rounded-b-xl -z-10"
-                ></div>
-              </a>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img
+                    src="./assets/images/carousel-section/eu/1-fusilli.png"
+                    alt="pic"
+                    class="w-full h-[430px] object-cover rounded-2xl"
+                  />
+                </a>
+              </div>
 
               <!-- card 2 -->
-              <a
-                href="#"
-                class="swiper-slide relative bg-red rounded-xl pt-6 md:pt-5 pb-11 md:pb-9 lg:pb-12 z-20"
-              >
-                <img
-                  src="./assets/images/carasoul-section/Al-Bronzo.svg"
-                  alt="pic"
-                  class="w-[68px] mx-auto h-auto"
-                />
-                <h2 class="text-center tracking-8percent uppercase pt-3">
-                  mezzi Rigatoni
-                </h2>
-                <img
-                  src="./assets/images/carasoul-section/Farfalline.webp"
-                  alt="pic"
-                  class="w-24 mx-auto h-auto mt-4 md:mt-3 lg:mt-4"
-                />
-                <!-- product img -->
-                <img
-                  src="./assets/images/carasoul-section/ITA_Mezzi Rigatoni.webp"
-                  alt="pic"
-                  class="w-40 md:w-[110px] lg:w-auto mx-auto h-auto md:h-[148px] lg:h-[182px] xl:h-[200px] mt-8 md:mt-6 lg:mt-9"
-                />
-                <!-- blue div absolute -->
-                <div
-                  class="card-clippy absolute w-full h-[160px] md:h-[130px] lg:h-[155px] bg-blue bottom-0 left-0 right-0 rounded-b-xl -z-10"
-                ></div>
-              </a>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img
+                    src="./assets/images/carousel-section/eu/2-fusilloni.png"
+                    alt="pic"
+                    class="w-full h-[430px] object-cover rounded-2xl"
+                  />
+                </a>
+              </div>
 
               <!-- card 3 -->
-              <a
-                href="#"
-                class="swiper-slide relative w-full bg-red mx-auto md:mx-0 rounded-xl pt-6 md:pt-5 pb-11 md:pb-9 lg:pb-12 z-20"
-              >
-                <img
-                  src="./assets/images/carasoul-section/Al-Bronzo.svg"
-                  alt="pic"
-                  class="w-[68px] mx-auto h-auto"
-                />
-                <h2 class="text-center tracking-8percent uppercase pt-3">
-                  mezzi Rigatoni
-                </h2>
-                <img
-                  src="./assets/images/carasoul-section/Farfalline.webp"
-                  alt="pic"
-                  class="w-24 mx-auto h-auto mt-4 md:mt-3 lg:mt-4"
-                />
-                <!-- product img -->
-                <img
-                  src="./assets/images/carasoul-section/ITA_Mezzi Rigatoni.webp"
-                  alt="pic"
-                  class="w-40 md:w-[110px] lg:w-auto mx-auto h-auto md:h-[148px] lg:h-[182px] xl:h-[200px] mt-8 md:mt-6 lg:mt-9"
-                />
-                <!-- blue div absolute -->
-                <div
-                  class="card-clippy absolute w-full h-[160px] md:h-[130px] lg:h-[155px] bg-blue bottom-0 left-0 right-0 rounded-b-xl -z-10"
-                ></div>
-              </a>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img
+                    src="./assets/images/carousel-section/eu/3-mezzi-rigatoni.png"
+                    alt="pic"
+                    class="w-full h-[430px] object-cover rounded-2xl"
+                  />
+                </a>
+              </div>
 
               <!-- card 4 -->
-              <a
-                href="#"
-                class="swiper-slide relative w-full bg-red mx-auto md:mx-0 rounded-xl pt-6 md:pt-5 pb-11 md:pb-9 lg:pb-12 z-20"
-              >
-                <img
-                  src="./assets/images/carasoul-section/Al-Bronzo.svg"
-                  alt="pic"
-                  class="w-[68px] mx-auto h-auto"
-                />
-                <h2 class="text-center tracking-8percent uppercase pt-3">
-                  mezzi Rigatoni
-                </h2>
-                <img
-                  src="./assets/images/carasoul-section/Farfalline.webp"
-                  alt="pic"
-                  class="w-24 mx-auto h-auto mt-4 md:mt-3 lg:mt-4"
-                />
-                <!-- product img -->
-                <img
-                  src="./assets/images/carasoul-section/ITA_Mezzi Rigatoni.webp"
-                  alt="pic"
-                  class="w-40 md:w-[110px] lg:w-auto mx-auto h-auto md:h-[148px] lg:h-[182px] xl:h-[200px] mt-8 md:mt-6 lg:mt-9"
-                />
-                <!-- blue div absolute -->
-                <div
-                  class="card-clippy absolute w-full h-[160px] md:h-[130px] lg:h-[155px] bg-blue bottom-0 left-0 right-0 rounded-b-xl -z-10"
-                ></div>
-              </a>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img
+                    src="./assets/images/carousel-section/eu/4-penne-rigate.png"
+                    alt="pic"
+                    class="w-full h-[430px] object-cover rounded-2xl"
+                  />
+                </a>
+              </div>
 
               <!-- card 5 -->
-              <a
-                href="#"
-                class="swiper-slide relative w-full bg-red mx-auto md:mx-0 rounded-xl pt-6 md:pt-5 pb-11 md:pb-9 lg:pb-12 z-20"
-              >
-                <img
-                  src="./assets/images/carasoul-section/Al-Bronzo.svg"
-                  alt="pic"
-                  class="w-[68px] mx-auto h-auto"
-                />
-                <h2 class="text-center tracking-8percent uppercase pt-3">
-                  mezzi Rigatoni
-                </h2>
-                <img
-                  src="./assets/images/carasoul-section/Farfalline.webp"
-                  alt="pic"
-                  class="w-24 mx-auto h-auto mt-4 md:mt-3 lg:mt-4"
-                />
-                <!-- product img -->
-                <img
-                  src="./assets/images/carasoul-section/ITA_Mezzi Rigatoni.webp"
-                  alt="pic"
-                  class="w-40 md:w-[110px] lg:w-auto mx-auto h-auto md:h-[148px] lg:h-[182px] xl:h-[200px] mt-8 md:mt-6 lg:mt-9"
-                />
-                <!-- blue div absolute -->
-                <div
-                  class="card-clippy absolute w-full h-[160px] md:h-[130px] lg:h-[155px] bg-blue bottom-0 left-0 right-0 rounded-b-xl -z-10"
-                ></div>
-              </a>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img
+                    src="./assets/images/carousel-section/eu/5-tortiglioni.png"
+                    alt="pic"
+                    class="w-full h-[430px] object-cover rounded-2xl"
+                  />
+                </a>
+              </div>
+
+              <!-- card 6 -->
+              <div class="swiper-slide">
+                <a href="#">
+                  <img
+                    src="./assets/images/carousel-section/eu/6-linguine.png"
+                    alt="pic"
+                    class="w-full h-[430px] object-cover rounded-2xl"
+                  />
+                </a>
+              </div>
+
+              <!-- card 7 -->
+              <div class="swiper-slide">
+                <a href="#">
+                  <img
+                    src="./assets/images/carousel-section/eu/7-spaghetti-quadrati.png"
+                    alt="pic"
+                    class="w-full h-[430px] object-cover rounded-2xl"
+                  />
+                </a>
+              </div>
+
+              <!-- card 8 -->
+              <div class="swiper-slide">
+                <a href="#">
+                  <img
+                    src="./assets/images/carousel-section/eu/8-spaghetti.png"
+                    alt="pic"
+                    class="w-full h-[430px] object-cover rounded-2xl"
+                  />
+                </a>
+              </div>
+
+              <!-- card 9 -->
+              <div class="swiper-slide">
+                <a href="#">
+                  <img
+                    src="./assets/images/carousel-section/eu/9-spaghettoni.png"
+                    alt="pic"
+                    class="w-full h-[430px] object-cover rounded-2xl"
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -430,20 +379,20 @@
 
           <!-- prev button -->
           <div
-            class="custom-button-prev w-full max-w-8 h-8 flex flex-shrink-1 items-center justify-center rounded-full !border-2 border-white"
+            class="custom-button-prev w-full max-w-8 h-8 flex flex-shrink-1 items-center justify-center rounded-full"
           >
             <img
-              src="./assets/images/carasoul-section/left arrow.svg"
+              src="./assets/images/carousel-section/left-arrow.svg"
               alt="pic"
             />
           </div>
 
           <!-- next button -->
           <div
-            class="custom-button-next w-full max-w-8 h-8 flex items-center justify-center rounded-full border-2 border-white"
+            class="custom-button-next w-full max-w-8 h-8 flex items-center justify-center rounded-full"
           >
             <img
-              src="./assets/images/carasoul-section/righ-arrow.svg"
+              src="./assets/images/carousel-section/right-arrow-red.svg"
               alt="pic"
             />
           </div>
@@ -475,19 +424,16 @@
       </div>
     </section>
 
-    <!-- text + man image section-->
+    <!-- text + david-oldani image section-->
     <section
-      class="relative h-[640px] md:h-[432px] lg:h-[576px] xl:h-[719px] 2xl:h-[808px] flex items-center justify-center"
+      class="relative h-[640px] md:h-[432px] lg:h-[576px] xl:h-[719px] 2xl:h-[808px] flex items-center justify-center bg-david-oldani bg-cover bg-center bg-no-repeat"
     >
-      <img
-        src="./assets/images/man.png"
-        alt="man"
-        class="absolute inset-0 bg-cover bg-center w-full h-full -z-10"
-      />
-      <div>
-        <h1 class="text-center uppercase">DAVIDE OLDANI</h1>
+      <div class="text-center text-white z-10">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold uppercase mb-4">
+          DAVIDE OLDANI
+        </h1>
         <p
-          class="w-[312px] md:w-[400px] lg:w-[500px] xl:w-[690px] lg:text-2xl mx-auto text-center pt-5"
+          class="max-w-[312px] md:max-w-[400px] lg:max-w-[500px] xl:max-w-[690px] text-base md:text-lg lg:text-xl mx-auto"
         >
           Michelin-starred chef and the genius behind pop cuisine, Davide Oldani
           elevates any dish with his passion, talent, and knowledge of quality
@@ -510,7 +456,7 @@
           elevated gastronomic experience.
         </p>
 
-        <!-- carasoul container -->
+        <!-- carousel container -->
         <div
           class="w-full max-w-[320px] md:max-w-[586px] lg:max-w-[870px] xl:w-[1020px] mx-auto mt-8 md:mt-10 lg:mt-12"
         >
@@ -519,11 +465,11 @@
               <!-- img1 -->
               <div class="swiper-slide">
                 <a
-                  href="https://www.youtube.com/watch?v=tcvPFmF14BY&ab_channel=Barilla"
+                  href="https://www.youtube.com/watch?v=tcvPFmF14BY"
                   class="glightbox"
                 >
                   <img
-                    src="./assets/images/video-carasoul-section/img2.webp"
+                    src="./assets/images/video-carousel-section/img2.webp"
                     alt="pic"
                     class="w-full h-[430px] object-cover rounded-2xl"
                   />
@@ -533,11 +479,11 @@
               <!-- img2 -->
               <div class="swiper-slide">
                 <a
-                  href="https://www.youtube.com/watch?v=Cr9XpOkncPc&t=6s&ab_channel=Barilla"
+                  href="https://www.youtube.com/watch?v=Cr9XpOkncPc"
                   class="glightbox"
                 >
                   <img
-                    src="./assets/images/video-carasoul-section/img1.webp"
+                    src="./assets/images/video-carousel-section/img1.webp"
                     alt="pic"
                     class="w-full h-[430px] object-cover rounded-2xl"
                   />
@@ -547,11 +493,11 @@
               <!-- img3 -->
               <div class="swiper-slide">
                 <a
-                  href="https://www.youtube.com/watch?v=MsQvtVjstI0&t=10s&ab_channel=Barilla"
+                  href="https://www.youtube.com/watch?v=MsQvtVjstI0"
                   class="glightbox"
                 >
                   <img
-                    src="./assets/images/video-carasoul-section/img3.webp"
+                    src="./assets/images/video-carousel-section/img3.webp"
                     alt="pic"
                     class="w-full h-[430px] object-cover rounded-2xl"
                   />
@@ -574,20 +520,20 @@
 
           <!-- prev button -->
           <div
-            class="custom-video-button-prev w-full max-w-8 h-8 flex flex-shrink-1 items-center justify-center rounded-full !border-2 border-white"
+            class="custom-video-button-prev w-full max-w-8 h-8 flex flex-shrink-1 items-center justify-center rounded-full"
           >
             <img
-              src="./assets/images/carasoul-section/left arrow.svg"
+              src="./assets/images/carousel-section/left-arrow.svg"
               alt="pic"
             />
           </div>
 
           <!-- next button -->
           <div
-            class="custom-video-button-next w-full max-w-8 h-8 flex items-center justify-center rounded-full border-2 border-white"
+            class="custom-video-button-next w-full max-w-8 h-8 flex items-center justify-center rounded-full"
           >
             <img
-              src="./assets/images/carasoul-section/righ-arrow.svg"
+              src="./assets/images/carousel-section/right-arrow-blue.svg"
               alt="pic"
             />
           </div>
@@ -595,7 +541,7 @@
       </div>
 
       <!-- img + text -->
-      <div class="our_container mt-8 md:mt-10 lg:mt-12">
+      <div class="custom-container mt-8 md:mt-10 lg:mt-12">
         <h1
           class="w-[250px] md:w-[370px] lg:w-[528px] xl:w-[700px] mx-auto text-center uppercase"
         >
@@ -606,7 +552,7 @@
         </p>
         <div class="pt-8">
           <img
-            src="./assets/images/video-carasoul-section/desk.webp"
+            src="./assets/images/video-carousel-section/desk.webp"
             alt="pic"
             class="w-full h-auto mx-auto rounded-2xl"
           />

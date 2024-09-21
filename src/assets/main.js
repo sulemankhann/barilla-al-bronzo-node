@@ -30,8 +30,9 @@ window.addEventListener("load", () => {
 
 // 360 degree viewer
 window.addEventListener("load", () => {
+  const locale = window.locale === "it" ? "ITA" : "EU";
   const jsv = new JavascriptViewer({
-    imageUrlFormat: "BARILLA AL BRONZO_MEZZI RIGATONI_ITA_Fxxx.png",
+    imageUrlFormat: `BARILLA AL BRONZO_MEZZI RIGATONI_${locale}_Fxxx.png`,
     totalFrames: 300,
     defaultProgressBar: false,
     speed: 40,
@@ -158,3 +159,69 @@ function handleLogoFade() {
 }
 
 document.addEventListener("DOMContentLoaded", handleLogoFade);
+
+document.addEventListener("DOMContentLoaded", () => {
+  const scrollArrow = document.getElementById("scroll-arrow");
+
+  if (scrollArrow) {
+    scrollArrow.addEventListener("click", () => {
+      const currentSection = scrollArrow.closest("section");
+      if (currentSection) {
+        const nextSection = currentSection.nextElementSibling;
+        if (nextSection) {
+          nextSection.scrollIntoView({ behavior: "smooth" });
+        }
+      }
+    });
+  }
+});
+
+let lastScrollTop = 0;
+let snapDisabled = false;
+
+function handleScroll() {
+  const html = document.documentElement;
+  const sections = document.querySelectorAll("section");
+  const lastSection = sections[sections.length - 1];
+  const lastSectionBottom = lastSection.offsetTop + lastSection.offsetHeight;
+  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  const scrollPosition = scrollTop + window.innerHeight;
+
+  // Determine scroll direction
+  const scrollingDown = scrollTop > lastScrollTop;
+  lastScrollTop = scrollTop;
+
+  if (scrollingDown && scrollPosition > lastSectionBottom && !snapDisabled) {
+    // Disable snap scrolling when scrolling down past the last section
+    html.style.scrollSnapType = "none";
+    snapDisabled = true;
+  } else if (
+    !scrollingDown &&
+    scrollPosition <= lastSectionBottom &&
+    snapDisabled
+  ) {
+    // Re-enable snap scrolling when scrolling up to or above the last section
+    html.style.scrollSnapType = "y mandatory";
+    snapDisabled = false;
+  }
+}
+
+// Throttle function to limit how often handleScroll is called
+function throttle(func, limit) {
+  let inThrottle;
+  return function () {
+    const args = arguments;
+    const context = this;
+    if (!inThrottle) {
+      func.apply(context, args);
+      inThrottle = true;
+      setTimeout(() => (inThrottle = false), limit);
+    }
+  };
+}
+
+// Add scroll event listener with throttling
+window.addEventListener("scroll", throttle(handleScroll, 100));
+
+// Initial call to set correct state on page load
+handleScroll();
