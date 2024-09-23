@@ -1032,6 +1032,18 @@ span {
   width: 100%;
 }
 
+.w-\[28px\] {
+  width: 28px;
+}
+
+.w-\[270px\] {
+  width: 270px;
+}
+
+.w-\[290px\] {
+  width: 290px;
+}
+
 .max-w-8 {
   max-width: 2rem;
 }
@@ -1048,12 +1060,12 @@ span {
   max-width: 328px;
 }
 
-.max-w-\[600px\] {
-  max-width: 600px;
-}
-
 .max-w-\[330px\] {
   max-width: 330px;
+}
+
+.max-w-\[600px\] {
+  max-width: 600px;
 }
 
 .-translate-x-1\/2 {
@@ -1353,12 +1365,32 @@ span {
     width: 100%;
   }
 
+  .sm\:w-\[410px\] {
+    width: 410px;
+  }
+
+  .sm\:w-\[430px\] {
+    width: 430px;
+  }
+
+  .sm\:w-\[450px\] {
+    width: 450px;
+  }
+
   .sm\:bg-launch-img-text-desktop {
     background-image: url('./images/image-text-section/bg-desktop.webp');
   }
 
   .sm\:pt-24 {
     padding-top: 6rem;
+  }
+
+  .sm\:pt-36 {
+    padding-top: 9rem;
+  }
+
+  .sm\:pt-40 {
+    padding-top: 10rem;
   }
 }
 
@@ -1377,6 +1409,10 @@ span {
 
   .md\:bottom-16 {
     bottom: 4rem;
+  }
+
+  .md\:-top-\[130px\] {
+    top: -130px;
   }
 
   .md\:mb-10 {
@@ -1421,6 +1457,10 @@ span {
 
   .md\:h-\[718px\] {
     height: 718px;
+  }
+
+  .md\:h-\[15\%\] {
+    height: 15%;
   }
 
   .md\:w-20 {
@@ -1479,6 +1519,10 @@ span {
     width: 520px;
   }
 
+  .md\:w-\[530px\] {
+    width: 530px;
+  }
+
   .md\:w-\[540px\] {
     width: 540px;
   }
@@ -1499,6 +1543,22 @@ span {
     width: 100%;
   }
 
+  .md\:w-\[380px\] {
+    width: 380px;
+  }
+
+  .md\:w-\[630px\] {
+    width: 630px;
+  }
+
+  .md\:w-\[4500px\] {
+    width: 4500px;
+  }
+
+  .md\:w-\[420px\] {
+    width: 420px;
+  }
+
   .md\:max-w-\[400px\] {
     max-width: 400px;
   }
@@ -1507,12 +1567,12 @@ span {
     max-width: 486px;
   }
 
-  .md\:max-w-\[586px\] {
-    max-width: 586px;
-  }
-
   .md\:max-w-\[500px\] {
     max-width: 500px;
+  }
+
+  .md\:max-w-\[586px\] {
+    max-width: 586px;
   }
 
   .md\:pb-3 {
@@ -1529,6 +1589,10 @@ span {
 
   .md\:pt-24 {
     padding-top: 6rem;
+  }
+
+  .md\:pt-20 {
+    padding-top: 5rem;
   }
 
   .md\:text-2xl {
@@ -1560,6 +1624,10 @@ span {
     bottom: -25%;
   }
 
+  .lg\:-top-\[140px\] {
+    top: -140px;
+  }
+
   .lg\:-top-\[160px\] {
     top: -160px;
   }
@@ -1572,8 +1640,8 @@ span {
     bottom: 0px;
   }
 
-  .lg\:-top-\[140px\] {
-    top: -140px;
+  .lg\:-top-\[190px\] {
+    top: -190px;
   }
 
   .lg\:mt-12 {
@@ -1676,6 +1744,10 @@ span {
     width: 528px;
   }
 
+  .lg\:w-\[530px\] {
+    width: 530px;
+  }
+
   .lg\:w-\[550px\] {
     width: 550px;
   }
@@ -1684,12 +1756,20 @@ span {
     width: 560px;
   }
 
+  .lg\:w-\[570px\] {
+    width: 570px;
+  }
+
   .lg\:w-\[600px\] {
     width: 600px;
   }
 
   .lg\:w-\[620px\] {
     width: 620px;
+  }
+
+  .lg\:w-\[630px\] {
+    width: 630px;
   }
 
   .lg\:w-\[660px\] {
@@ -1704,24 +1784,32 @@ span {
     width: 100%;
   }
 
-  .lg\:w-\[530px\] {
-    width: 530px;
+  .lg\:w-\[730px\] {
+    width: 730px;
   }
 
-  .lg\:w-\[490px\] {
-    width: 490px;
+  .lg\:w-\[760px\] {
+    width: 760px;
   }
 
-  .lg\:w-\[630px\] {
-    width: 630px;
+  .lg\:w-\[550\] {
+    width: 550;
   }
 
-  .lg\:w-\[570px\] {
-    width: 570px;
+  .lg\:w-\[650\] {
+    width: 650;
+  }
+
+  .lg\:w-\[650px\] {
+    width: 650px;
   }
 
   .lg\:max-w-\[500px\] {
     max-width: 500px;
+  }
+
+  .lg\:max-w-\[570px\] {
+    max-width: 570px;
   }
 
   .lg\:max-w-\[802px\] {
@@ -1730,14 +1818,6 @@ span {
 
   .lg\:max-w-\[870px\] {
     max-width: 870px;
-  }
-
-  .lg\:max-w-\[600px\] {
-    max-width: 600px;
-  }
-
-  .lg\:max-w-\[570px\] {
-    max-width: 570px;
   }
 
   .lg\:bg-launch-hero-desktop {
@@ -1781,28 +1861,6 @@ span {
 }
 
 @media (min-width: 1240px) {
-  @media (min-width: 1024px) {
-    .xl\:lg\:w-\[750px\] {
-      width: 750px;
-    }
-
-    .xl\:lg\:w-\[700px\] {
-      width: 700px;
-    }
-
-    .xl\:lg\:w-\[680px\] {
-      width: 680px;
-    }
-
-    .xl\:lg\:w-\[660px\] {
-      width: 660px;
-    }
-
-    .xl\:lg\:w-\[630px\] {
-      width: 630px;
-    }
-  }
-
   .xl\:h-\[1080px\] {
     height: 1080px;
   }
@@ -1855,6 +1913,10 @@ span {
     width: 560px;
   }
 
+  .xl\:w-\[580px\] {
+    width: 580px;
+  }
+
   .xl\:w-\[600px\] {
     width: 600px;
   }
@@ -1879,6 +1941,10 @@ span {
     width: 700px;
   }
 
+  .xl\:w-\[720px\] {
+    width: 720px;
+  }
+
   .xl\:w-\[730px\] {
     width: 730px;
   }
@@ -1887,8 +1953,12 @@ span {
     width: 820px;
   }
 
-  .xl\:w-\[580px\] {
-    width: 580px;
+  .xl\:w-\[670px\] {
+    width: 670px;
+  }
+
+  .xl\:w-\[750px\] {
+    width: 750px;
   }
 
   .xl\:w-\[630px\] {
