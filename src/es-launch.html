@@ -29,11 +29,6 @@
     <!-- GLightbox JS -->
     <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
 
-    <!-- Set locale for 360 viewer pack -->
-    <script>
-      window.locale = "it";
-    </script>
-
     <!-- Custom JS -->
     <script src="./assets/main.js" defer></script>
   </head>
@@ -54,11 +49,16 @@
 
         <!-- hero section -->
         <div class="flex flex-col justify-center">
+          <!-- translation key 1 -->
           <h1
-            class="w-[260px] md:w-[500px] xl:w-[530px] 2xl:w-[730px] mx-auto md:text-[64px] 2xl:text-[85px] md:leading-[77px] 2xl:leading-[90px] text-center uppercase pt-12 sm:pt-24 lg:pt-48 xl:pt-72 2xl:pt-[350px]"
+            class="w-[230px] md:w-[450px] xl:w-[480px] 2xl:w-[710px] mx-auto md:text-[64px] 2xl:text-[83px] md:leading-[77px] 2xl:leading-[80px] text-center uppercase pt-12 sm:pt-24 md:pt-12 lg:pt-48 xl:pt-72 2xl:pt-[350px]"
           >
-            L'arte italiana di catturare il sugo
+            CAPTURA LA SALSA A LA MANERA ITALIANA
           </h1>
+          <p>
+            Imagina esto: un plato humeante de pasta Barilla Al Bronzo,
+            capturando hasta la última gota de salsa.
+          </p>
         </div>
       </div>
 
@@ -104,63 +104,32 @@
       />
     </section>
 
-    <!-- text-shape-image section -->
-    <section>
-      <!-- text -->
-      <div
-        class="relative bg-bronze-100 pt-14 md:pt-12 lg:pt-20 pb-14 md:pb-3 lg:pb-3"
-      >
-        <h1
-          class="w-[200px] md:w-[250px] lg:w-[350px] xl:w-[460px] mx-auto uppercase text-center"
-        >
-          La pasta che fa la scarpetta
-        </h1>
-        <p
-          class="w-[210px] md:w-[300px] lg:w-[350px] mx-auto lg:text-2xl text-center pt-5"
-        >
-          Riscopri il piacere di catturare ogni goccia di sugo con Barilla Al
-          Bronzo.
-        </p>
-
-        <!-- clippy path -->
-        <div
-          class="clippy w-full h-[15%] lg:h-[25%] -bottom-[15%] lg:-bottom-[25%] absolute bg-bronze-100 z-[9999]"
-        ></div>
-      </div>
-      <!-- img -->
-      <div
-        class="w-full h-[336px] sm:h-[500px] md:h-[718px] 2xl:h-[800px] 3xl:h-[900px]"
-      >
-        <img
-          src="./assets/images/desktop.webp"
-          class="w-full h-full bg-cover"
-        />
-      </div>
-    </section>
-
     <!-- text + illustration section -->
     <section
       class="relative h-[444px] md:h-[419px] lg:h-[619px] xl:h-[708px] 2xl:h-[808px] bg-red flex items-center justify-center"
     >
       <div>
+        <!-- translation key 2 -->
         <h1
-          class="w-[260px] lg:w-[360px] xl:w-[460px] mx-auto text-center uppercase"
+          class="w-[260px] md:w-[300px] lg:w-[400px] xl:w-[530px] mx-auto text-center uppercase"
         >
-          UN’eccellente tenuta del sugo
+          UN AGARRE EXTRAORDINARIO DE LA SALSA
         </h1>
         <p
           class="w-[294px] sm:w-[400px] md:w-full mx-auto lg:text-2xl text-center pt-5"
         >
-          Risultato di decenni di esperienza, la nostra trafilatura al bronzo
-          conferisce
+          Con décadas de experiencia, nuestro tradicional método de corte con
+          bronce le da a Barilla Al Bronzo una superficie rugosa y porosa que se
+          adhiere sin esfuerzo a cada gota de salsa. Nuestro trigo duro de alta
+          calidad, cuidadosamente seleccionado, aporta un sabor redondeado y
+          ligeramente tostado, creando una experiencia verdaderamente elevada.
         </p>
-
-        <p
-          class="w-[294px] sm:w-[400px] md:w-[470px] lg:w-[620px] xl:w-[690px] mx-auto lg:text-2xl text-center"
+        <!-- <p
+          class="w-[294px] sm:w-[400px] md:w-[470px] lg:w-[430px] xl:w-[430px] mx-auto lg:text-2xl text-center"
         >
-          alla pasta Barilla Al Bronzo una superficie ruvida e porosa che
-          aderisce senza sforzo a ogni goccia di sugo.
-        </p>
+          gives Barilla Al Bronzo a rough and porous surface that effortlessly
+          clings to every drop of sauce.
+        </p> -->
       </div>
 
       <!-- right absolute img -->
@@ -187,30 +156,82 @@
       />
     </section>
 
-    <!-- image + text section -->
+    <!-- video + image section -->
     <section
-      class="relative h-[451px] lg:h-[566px] xl:h-[708px] bg-launch-img-text-mobile sm:bg-launch-img-text-desktop bg-cover bg-center flex items-center justify-center z-50"
+      class="relative h-[640px] md:h-[432px] lg:h-[576px] xl:h-[708px] 2xl:h-[808px] flex items-center justify-center overflow-hidden"
     >
-      <h1
-        class="w-[320px] sm:w-[400px] lg:w-[500px] xl:w-[600px] mx-auto text-center uppercase"
+      <!-- Background video -->
+      <video
+        autoplay
+        loop
+        muted
+        playsinline
+        class="absolute top-0 left-0 w-full h-full object-cover z-0"
       >
-        Il boccone perfetto, ogni volta che vuoi
-      </h1>
+        <source src="./assets/videos/background-3.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <!-- Content -->
+      <div class="relative z-10 text-white text-center">
+        <!-- translation key 3 -->
+        <h1 class="w-[230px] md:w-full mx-auto text-center uppercase">
+          LA PASTA QUE HACE 'LA SCARPETTA'
+        </h1>
+        <!-- translation key 4   -->
+        <p class="w-[312px] sm:w-[400px] md:w-full mx-auto text-center pt-5">
+          Experimenta la forma italiana de capturar cada gota de salsa con
+          Barilla Al Bronzo.
+        </p>
+      </div>
+    </section>
+
+    <section class="bg-red">
+      <div class="custom-container pt-16 pb-8">
+        <!-- translation key 5 -->
+        <h1
+          class="w-[300px] md:w-full lg:w-[500px] xl:w-[600px] mx-auto text-center uppercase"
+        >
+          SCARPETTA? ES MÁS QUE UN GESTO
+        </h1>
+
+        <!-- translation key 6 -->
+        <p
+          class="w-[328px] md:w-[400px] lg:w-[470px] mx-auto lg:text-2xl text-center pt-6"
+        >
+          "En Italia, es la filosofía de saborear cada momento y apreciar los
+          placeres simples de la vida.
+        </p>
+        <div class="pt-8">
+          <img
+            src="./assets/images/Lemon_Ricotta.png"
+            alt="pic"
+            class="w-full h-auto mx-auto rounded-2xl"
+          />
+        </div>
+        <p
+          class="w-[328px] lg:w-[450px] mx-auto lg:text-2xl text-center pt-6 pt-12"
+        >
+          Abraza la «manera italiana» y captura hasta la última gota de salsa
+          con Barilla Al Bronzo."
+        </p>
+      </div>
     </section>
 
     <!-- 360 degree section -->
     <section class="relative bg-red pt-10 md:pt-16 pb-28 lg:pb-36">
       <div class="custom-container">
-        <h1 class="w-[260px] sm:w-full mx-auto text-center uppercase">
-          REINVENTARE LA TRADIZIONE
+        <!-- translation key 7 -->
+        <h1 class="w-full mx-auto text-center uppercase">
+          REINVENTANDO LA TRADICIÓN
         </h1>
-
+        <!-- translation key 8 -->
         <p
-          class="w-[280px] md:w-[560px] lg:w-[660px] lg:text-2xl mx-auto text-center pt-5"
+          class="w-[300px] md:w-[560px] lg:w-[660px] lg:text-2xl mx-auto text-center pt-5"
         >
-          Una nuova, elegante confezione da 500 grammi, pensata per celebrare la
-          qualità di Barilla Al Bronzo e sottolinearne l'eccezionale presa sul
-          sugo.
+          Un nuevo paquete refinado de 500 gramos, diseñado para celebrar la
+          calidad de Barilla Al Bronzo, enfatizando su extraordinario agarre de
+          la salsa
         </p>
 
         <!-- 360 viewer -->
@@ -219,7 +240,7 @@
           <img
             id="jsv-image"
             alt="example"
-            src="./assets/images/360/it/BARILLA AL BRONZO_MEZZI RIGATONI_ITA_F000.png"
+            src="./assets/images/360/eu/BARILLA AL BRONZO_MEZZI RIGATONI_EU_F000.png"
           />
         </div>
 
@@ -241,18 +262,19 @@
 
       <!-- container -->
       <div class="custom-container pt-4 pb-10">
+        <!-- translation key 9 -->
         <h1
-          class="w-[260px] sm:w-[420px] lg:w-[550px] xl:w-[820px] mx-auto text-center uppercase"
+          class="w-[300px] sm:w-[420px] lg:w-[550px] xl:w-[730px] mx-auto text-center uppercase"
         >
-          TUTTI I FORMATI PER ACCONTENTARE OGNI PALATO
+          TODAS LAS FORMAS PARA CADA PALADAR
         </h1>
-
+        <!-- translation key 10 -->
         <p
-          class="w-[320px] sm:w-[380px] md:w-[520px] lg:w-[560px] xl:w-[530px] mx-auto text-center pt-5"
+          class="w-[320px] sm:w-[380px] md:w-[450px] lg:w-[550px] xl:w-[530px] lg:text-2xl mx-auto text-center pt-5"
         >
-          Il loro design, sapientemente realizzato dai nostri esperti, rende
-          ogni formato di pasta perfetto per vivere un'esperienza gastronomica
-          unica e intensa.
+          Su diseño, meticulosamente elaborado por nuestros expertos, hace que
+          cada forma sea perfecta para una experiencia gastronómica única e
+          intensa.
         </p>
 
         <!-- cards -->
@@ -265,7 +287,7 @@
               <div class="swiper-slide">
                 <a href="#">
                   <img
-                    src="./assets/images/carousel-section/it/1-fusilli.png"
+                    src="./assets/images/carousel-section/eu/1-fusilli.png"
                     alt="pic"
                     class="w-full h-[430px] object-cover rounded-2xl"
                   />
@@ -276,7 +298,7 @@
               <div class="swiper-slide">
                 <a href="#">
                   <img
-                    src="./assets/images/carousel-section/it/2-fusilloni.png"
+                    src="./assets/images/carousel-section/eu/2-fusilloni.png"
                     alt="pic"
                     class="w-full h-[430px] object-cover rounded-2xl"
                   />
@@ -287,7 +309,7 @@
               <div class="swiper-slide">
                 <a href="#">
                   <img
-                    src="./assets/images/carousel-section/it/3-mezze-penne-rigate.png"
+                    src="./assets/images/carousel-section/eu/3-mezzi-rigatoni.png"
                     alt="pic"
                     class="w-full h-[430px] object-cover rounded-2xl"
                   />
@@ -298,7 +320,7 @@
               <div class="swiper-slide">
                 <a href="#">
                   <img
-                    src="./assets/images/carousel-section/it/4-mezzi-rigatoni.png"
+                    src="./assets/images/carousel-section/eu/4-penne-rigate.png"
                     alt="pic"
                     class="w-full h-[430px] object-cover rounded-2xl"
                   />
@@ -309,7 +331,7 @@
               <div class="swiper-slide">
                 <a href="#">
                   <img
-                    src="./assets/images/carousel-section/it/5-penne-rigate.png"
+                    src="./assets/images/carousel-section/eu/5-tortiglioni.png"
                     alt="pic"
                     class="w-full h-[430px] object-cover rounded-2xl"
                   />
@@ -320,7 +342,7 @@
               <div class="swiper-slide">
                 <a href="#">
                   <img
-                    src="./assets/images/carousel-section/it/6-tortiglioni.png"
+                    src="./assets/images/carousel-section/eu/6-linguine.png"
                     alt="pic"
                     class="w-full h-[430px] object-cover rounded-2xl"
                   />
@@ -331,7 +353,7 @@
               <div class="swiper-slide">
                 <a href="#">
                   <img
-                    src="./assets/images/carousel-section/it/7-linguine.png"
+                    src="./assets/images/carousel-section/eu/7-spaghetti-quadrati.png"
                     alt="pic"
                     class="w-full h-[430px] object-cover rounded-2xl"
                   />
@@ -342,7 +364,7 @@
               <div class="swiper-slide">
                 <a href="#">
                   <img
-                    src="./assets/images/carousel-section/it/8-spaghetti.png"
+                    src="./assets/images/carousel-section/eu/8-spaghetti.png"
                     alt="pic"
                     class="w-full h-[430px] object-cover rounded-2xl"
                   />
@@ -353,18 +375,7 @@
               <div class="swiper-slide">
                 <a href="#">
                   <img
-                    src="./assets/images/carousel-section/it/9-spaghetti-quadrati.png"
-                    alt="pic"
-                    class="w-full h-[430px] object-cover rounded-2xl"
-                  />
-                </a>
-              </div>
-
-              <!-- card 10 -->
-              <div class="swiper-slide">
-                <a href="#">
-                  <img
-                    src="./assets/images/carousel-section/it/10-spaghettoni.png"
+                    src="./assets/images/carousel-section/eu/9-spaghettoni.png"
                     alt="pic"
                     class="w-full h-[430px] object-cover rounded-2xl"
                   />
@@ -381,6 +392,9 @@
           <div class="progress-bar w-full h-[2px] bg-white relative">
             <div class="progress h-full bg-red absolute top-0 left-0"></div>
           </div>
+          <!-- <div class="progress-bar">
+        <div class="progress"></div>
+      </div> -->
 
           <!-- prev button -->
           <div
@@ -420,35 +434,33 @@
       </video>
 
       <div class="relative z-10 text-white text-center">
-        <p class="lg:text-2xl md:w-[600px] lg:w-full mx-auto">
-          <span class="text-xl lg:text-2xl font-acumin tracking-normal block">
-            Sono i grani duri pregiati, coltivati in Italia,
-          </span>
-          a donare a Barilla Al Bronzo il gusto rotondo e leggermente tostato.
+        <!-- translation key 17 -->
+        <p
+          class="w-[312px] md:w-[400px] lg:w-[460px] lg:text-2xl mx-auto text-center"
+        >
+          Es nuestra selección del mejor trigo duro lo que le da a Barilla Al
+          Bronzo su sabor redondeado y ligeramente tostado
         </p>
       </div>
     </section>
 
-    <!-- video + image section -->
+    <!-- text + david-oldani image section-->
     <section
-      class="relative h-[640px] md:h-[432px] lg:h-[576px] xl:h-[708px] 2xl:h-[808px] flex items-center justify-center"
+      class="relative h-[640px] md:h-[432px] lg:h-[576px] xl:h-[719px] 2xl:h-[808px] flex items-center justify-center bg-david-oldani bg-cover bg-center bg-no-repeat"
     >
-      <video
-        class="absolute top-0 left-0 w-full h-full object-cover z-0"
-        autoplay
-        loop
-        muted
-        playsinline
-      >
-        <source src="./assets/videos/background-2.mp4" type="video/mp4" />
-      </video>
-
-      <div class="relative z-10 text-white text-center">
-        <h1 class="w-[260px] sm:w-full mx-auto uppercase">
-          Non ti saresti mai aspettato di...
+      <div class="text-center text-white z-10">
+        <!-- translation key 11 -->
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold uppercase mb-4">
+          DAVIDE OLDANI
         </h1>
-        <p class="w-[180px] sm:w-full mx-auto text-center pt-5">
-          Imparare un nuovo modo di fare la scarpetta.
+
+        <!-- translation key 12 -->
+        <p
+          class="max-w-[312px] md:max-w-[400px] lg:max-w-[500px] xl:max-w-[690px] text-base md:text-lg lg:text-xl mx-auto"
+        >
+          El chef con estrellas Michelin y el genio detrás de la cocina pop,
+          Davide Oldani, eleva cualquier plato con su pasión, talento y
+          conocimiento de ingredientes de calidad.
         </p>
       </div>
     </section>
@@ -457,14 +469,17 @@
     <section class="bg-red py-16">
       <!-- video carousel -->
       <div>
-        <h1 class="w-[250px] md:w-full mx-auto text-center uppercase">
-          Ricette per scarpette d’autore
+        <!-- translation key 13 -->
+        <h1 class="w-[300px] md:w-full mx-auto text-center uppercase">
+          APRENDELO DEL CHEF MISMO
         </h1>
+
+        <!-- translation key 14 -->
         <p
-          class="lg:text-2xl w-[320px] md:w-[400px] lg:w-[500px] mx-auto text-center pt-5"
+          class="lg:text-2xl w-[340px] md:w-[400px] lg:w-[500px] mx-auto text-center pt-5"
         >
-          Ricera queste ricette di Barilla Al Bronzo dello Chef Oldani: per
-          un'esperienza gastronomica elevata
+          Recrea estas recetas de Barilla Al Bronzo por el Chef Oldani para una
+          experiencia gastronómica elevada.
         </p>
 
         <!-- carousel container -->
@@ -685,13 +700,15 @@
 
       <!-- img + text -->
       <div class="custom-container mt-8 md:mt-10 lg:mt-12">
+        <!-- translation key 15 -->
         <h1
-          class="w-[328px] lg:w-[528px] xl:w-[700px] mx-auto text-center uppercase"
+          class="w-[250px] md:w-[370px] lg:w-[528px] xl:w-[700px] mx-auto text-center uppercase"
         >
-          UN PIACERE PER GLI OCCHI E PER IL PALATO
+          UN PLACER PARA LOS OJOS Y EL PALADAR
         </h1>
-        <p class="w-[250px] md:w-full mx-auto lg:text-2xl text-center pt-6">
-          Innamorati di ricette classiche e creative con Barilla Al Bronzo.
+        <!-- translation key 16 -->
+        <p class="w-[260px] md:w-full mx-auto lg:text-2xl text-center pt-6">
+          Enamórate de las recetas clásicas y creativas con Barilla Al Bronzo.
         </p>
         <div class="pt-8">
           <img

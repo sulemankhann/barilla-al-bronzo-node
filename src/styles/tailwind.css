@@ -38,7 +38,7 @@
   }
 
   h2 {
-    @apply text-xl text-white;
+    @apply text-xl text-white leading-6 font-agipo;
   }
 
   p {
@@ -48,7 +48,7 @@
     @apply text-xs text-white font-netto tracking-8percent;
   }
 
-  html {
+  /* html {
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
   }
@@ -56,7 +56,7 @@
   section {
     scroll-snap-align: start;
     min-height: 100vh;
-  }
+  } */
 }
 
 /*-------------- clippy paths---------- */
